@@ -1,13 +1,20 @@
 import './App.css';
-import Content from './components/Content';
-import IntroSection from './components/IntroSection';
+import LandingPage from './components/landing/LandingPage';
+
+import { Link, Route, Routes } from "react-router-dom";
+import Projects from './components/projects/Projects';
+import PersonalWebsite from './components/project/allProjects/PersonalWebsite';
+import Megasite from './components/megasite/Megasite';
 
 function App() {
   return (
     <div>
-      <IntroSection />
-      <Content />
-
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/personal-website" element={<PersonalWebsite />} />
+        <Route path="/megasite" element={<Megasite />} />
+      </Routes>
     </div>
   );
 }
