@@ -1,3 +1,8 @@
-export const day = "Friday";
-export const date = "September 30th"
-export const shortDate = "9/30/22"
+var d = new Date();
+var day = d.getDay();
+var diff = d.getDate() - day + (day == 0 ? -6 : 5); // adjust when day is sunday
+var nextFriday = new Date(d.setDate(diff));
+
+export const formatDate = new Intl.DateTimeFormat("en-US").format(nextFriday);
+
+//testing GitHub co-authored commits here - 2nd commit
