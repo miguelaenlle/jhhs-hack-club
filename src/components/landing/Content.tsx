@@ -9,18 +9,6 @@ const Content: React.FC<{}> = (props) => {
     <GradientContent move={true}>
       <div className={"border-b-2 border-b-slate-700 py-16"}>
         <h2 className={"text-3xl font-bold font-Poppins text-white"}>
-          Projects Vote
-        </h2>
-        <br />
-        <br />
-        <Widget
-          id="kQHgRo2N"
-          style={{ width: "100%", height: "50vh" }}
-          className="my-form"
-        />
-      </div>
-      <div className={"border-b-2 border-b-slate-700 py-16"}>
-        <h2 className={"text-3xl font-bold font-Poppins text-white"}>
           What is a Hack Club?
         </h2>
         <p
@@ -79,7 +67,6 @@ const Content: React.FC<{}> = (props) => {
           duration of the event.
         </p>
       </div>
-
       <div className={"py-16"}>
         <h2 className={"text-3xl font-bold font-Poppins text-white"}>
           How can I join?
