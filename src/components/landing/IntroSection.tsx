@@ -29,9 +29,6 @@ const IntroSection: React.FC<{}> = (props) => {
                             <p className={"text-md md:text-xl text-white font-Poppins font-bold"}>Go to Workshops</p>
                         </a>
                         <div className={"group flex items-center gap-2 group-hover:cursor pt-3"}>
-                            <div className={"bg-red-500 rounded-md hover:cursor"}>
-                                <p className={"text-xl text-white font-mono px-2 rounded-lg"}>NEW</p>
-                            </div>
                             <a href={"/megasite"} className={"text-md md:text-xl font-medium text-white font-Poppins group-hover:font-bold transition-all"}>Personal Site Megasite</a>
                         </div>
                     </div>

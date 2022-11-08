@@ -8,12 +8,6 @@ const Content: React.FC<{}> = (props) => {
     return (
         <GradientContent move={true}>
             <div className={"border-b-2 border-b-slate-700 py-16"}>
-                <h2 className={"text-3xl font-bold font-Poppins text-white"}>Projects Vote</h2>
-                <br />
-                <br />
-                <Widget id="kQHgRo2N" style={{ width: '100%', height: "50vh" }} className="my-form" />
-            </div>
-            <div className={"border-b-2 border-b-slate-700 py-16"}>
                 <h2 className={"text-3xl font-bold font-Poppins text-white"}>What is a Hack Club?</h2>
                 <p className={"leading-8 text-lg md:text-lg font-light font-Poppins text-slate-300 mt-5"}>JHHS Hack Club is affiliated with <Link url={"https://hackclub.com"} text={"Hack Club"} />, a global network of 2,000 programming clubs that provides guides and funding for running Hack Clubs and starting hackathons.</p>
                 <p className={"leading-8 text-lg md:text-lg font-light font-Poppins text-slate-300 mt-5"}>
