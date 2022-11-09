@@ -1,3 +1,9 @@
+This is the website for the John Hersey High School Hack Club.
+
+If you wish to add
+Fork ->
+Pull request
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
