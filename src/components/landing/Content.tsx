@@ -3,10 +3,25 @@ import { DISCORD } from "../../constants/links";
 import { formatDate } from "../../constants/meetup-date";
 import GradientContent from "../shared/GradientContent";
 import Link from "./Link";
-import { Widget } from "@typeform/embed-react";
+// import { Widget } from "@typeform/embed-react";
+import { PopupButton } from "react-calendly";
 const Content: React.FC<{}> = (props) => {
+  const root = document.getElementById("root") as HTMLElement;
+
   return (
     <GradientContent move={true}>
+      <div className="flex space-y-3 flex-col items-center justify-center pt-5 pb-10">
+        <h1 className="text-4xl text-white font-bold text-center py-10">
+          {" "}
+          Hack Club Personal Roadmap Form{" "}
+        </h1>
+        <PopupButton
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          url="https://calendly.com/miguelaenlle/hackclubroadmaps?month=2022-11"
+          rootElement={root}
+          text="Schedule a call here!"
+        />
+      </div>
       <div className={"border-b-2 border-b-slate-700 py-16"}>
         <h2 className={"text-3xl font-bold font-Poppins text-white"}>
           What is a Hack Club?
