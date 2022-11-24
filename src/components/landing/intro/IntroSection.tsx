@@ -3,7 +3,7 @@ import * as React from "react";
 import { DISCORD } from "../../../constants/links";
 import GradientButton from "./GradientButton";
 import Header from "./Header";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 import Subheader from "./Subheader";
 
 const IntroSection: React.FC<{}> = (props) => {
@@ -13,7 +13,6 @@ const IntroSection: React.FC<{}> = (props) => {
         "bg-[url('./img/background.png')] bg-opacity-10 bg-cover object-fill p-5 pb-20 backdrop-blur-xl z-10 shadow-lg"
       }
     >
-      
       <div>
         <Navbar />
         <div className={"py-16 md:py-32"}>
@@ -40,7 +39,6 @@ const IntroSection: React.FC<{}> = (props) => {
               startColor={"from-cyan-500"}
               endColor={"to-cyan-700"}
             />
-            
           </motion.div>
         </div>
       </div>
