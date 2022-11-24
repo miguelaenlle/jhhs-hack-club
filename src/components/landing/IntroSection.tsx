@@ -38,13 +38,13 @@ const IntroSection: React.FC<{}> = (props) => {
           >
             JHHS Hack Club
           </h1>
-          <div className={"max-w-2xl mx-auto mt-3 md:mt-5"}>
+          <div className={" mx-auto mt-3 md:mt-5"}>
             <h3
               className={
                 "text-lg md:text-2xl font-regular text-slate-300 font-Poppins text-center"
               }
             >
-              Build awesome projects and attend hackathons at the JHHS Hack Club
+              Learn to code & build awesome projects <br />at the JHHS Hack Club!
             </h3>
           </div>
           <p
@@ -88,25 +88,6 @@ const IntroSection: React.FC<{}> = (props) => {
                 Go to Workshops
               </p>
             </a>
-            <div
-              className={
-                "group flex items-center gap-2 group-hover:cursor pt-3"
-              }
-            >
-              <div className={"bg-red-500 rounded-md hover:cursor"}>
-                <p className={"text-xl text-white font-mono px-2 rounded-lg"}>
-                  NEW
-                </p>
-              </div>
-              <a
-                href={"/megasite"}
-                className={
-                  "text-md md:text-xl font-medium text-white font-Poppins group-hover:font-bold transition-all"
-                }
-              >
-                Personal Site Megasite
-              </a>
-            </div>
           </div>
         </div>
       </div>
