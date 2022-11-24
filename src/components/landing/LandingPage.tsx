@@ -1,7 +1,8 @@
 import * as React from "react";
-import Content from "./Content";
-import Footer from "./Footer";
-import IntroSection from "./IntroSection";
+import Content from "./content/Content";
+import Footer from "./footer/Footer";
+import GradientButton from "./intro/GradientButton";
+import IntroSection from "./intro/IntroSection";
 const LandingPage: React.FC<{}> = (props) => {
     return (
         <div>
