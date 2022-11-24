@@ -5,11 +5,14 @@ const GradientButton: React.FC<{
     startColor: string;
     endColor: string;
 }> = (props) => {
+
+    const handleClick = () => {
+        window.open(props.link, "_blank")
+    }
+
     return (
-        <a
-            href={props.link}
-            target="_blank"
-            rel="noreferrer"
+        <button
+            onClick={handleClick}
             className={
                 `bg-gradient-to-br ${props.startColor} ${props.endColor} rounded-full p-3 px-7 w-fit hover:cursor-pointer hover:scale-105 transition-all`
             }
@@ -21,7 +24,7 @@ const GradientButton: React.FC<{
             >
                 {props.text}
             </p>
-        </a>
+        </button>
     );
 }
 export default GradientButton
