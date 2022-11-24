@@ -24,7 +24,7 @@ const StuffCell: React.FC<{
 
     return (
         <div className={
-            `flex-1 bg-gradient-to-br ${props.startColor} ${props.endColor} p-4 rounded-md pb-10 hover:scale-105 hover:cursor-default transition-all`
+            `flex-1 bg-gradient-to-br ${props.startColor} ${props.endColor} p-4 rounded-md pb-10 hover:scale-105 hover:cursor-default transition-all shadow-md`
         }>
             {icons[props.icon]}
             <p className={"font-bold font-Poppins text-white text-xl md:text-2xl"}>{props.header}</p>

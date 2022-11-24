@@ -9,7 +9,7 @@ const Header: React.FC<{}> = (props) => {
                 initial={{ opacity: 0, y: -20, scale: 0.8 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ delay: 0.2, duration: 0.5 }}
-                className={"text-3xl md:text-5xl font-bold text-white font-Poppins text-center mb-3"}>
+                className={"text-3xl md:text-8xl font-bold text-orange-600 font-Poppins text-center mb-3"}>
                 Welcome to
             </motion.h3>
             <motion.h1
@@ -17,11 +17,11 @@ const Header: React.FC<{}> = (props) => {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ delay: 0.8, duration: 0.5 }}
                 className={
-                    "text-4xl md:text-6xl font-bold text-orange-500 font-Poppins text-center"
+                    "text-4xl md:text-8xl font-bold text-white font-Poppins text-center"
                 }
             >
                 JHHS Hack Club
-                <a className={"text-white"}>.</a>
+                <a className={"text-orange-600"}>.</a>
             </motion.h1>
         </div>
     );
