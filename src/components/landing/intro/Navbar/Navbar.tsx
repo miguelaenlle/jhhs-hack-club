@@ -3,7 +3,7 @@ import NavItem from "./NavItem";
 import navimg from "./navimg.png";
 const Navbar: React.FC<{}> = (props) => {
   return (
-    <div className={"flex items-start gap-12"}>
+    <div className={"flex items-start items-center gap-12"}>
       <img className={"w-10"} alt="logo" src={navimg}></img>
       <a
         href={"/projects"}
