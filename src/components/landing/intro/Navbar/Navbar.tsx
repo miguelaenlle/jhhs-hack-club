@@ -1,6 +1,9 @@
 import React from "react";
 import NavItem from "./NavItem";
 import navimg from "./navimg.png";
+import { ReactDOM } from "react";
+import join from "../../content/Content";
+
 const Navbar: React.FC<{}> = (props) => {
   return (
     <div className={"flex items-start items-center"}>
@@ -14,13 +17,13 @@ const Navbar: React.FC<{}> = (props) => {
         JHHS Hack Club
       </a>
       <div className={"flex mr-8 items-end"}>
-        <NavItem link={"/projects"} text={"Showcase"} />
+        <NavItem link={"/showcase"} text={"Showcase"} />
       </div>
       <div className={"flex mr-8 items-end"}>
-        <NavItem link={"/projects"} text={"Workshops"} />
+        <NavItem link={"/workshops"} text={"Workshops"} />
       </div>
       <div className={"flex items-end"}>
-        <NavItem link={"/projects"} text={"Join Hack Club"} />
+        <NavItem link={""} text={"Join Hack Club"} />
       </div>
     </div>
   );

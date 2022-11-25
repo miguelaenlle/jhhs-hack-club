@@ -58,7 +58,7 @@ const Content: React.FC<{}> = (props) => {
           </div>
         </div>
         <Discord />
-        <div className={"max-w-6xl mx-auto my-5 mb-24"}>
+        <div className={"max-w-6xl mx-auto my-5 mb-24"} id="join">
           <div className={"p-10"}>
             <ContentHeader
               text={"How to join"}
@@ -74,4 +74,5 @@ const Content: React.FC<{}> = (props) => {
     </div>
   );
 };
+export const join = document.getElementById("join");
 export default Content;
