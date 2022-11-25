@@ -4,6 +4,7 @@ export const WORKSHOPS: {
     number: number,
     name: string,
     description: string,
+    moreDescription: string,
     startDate?: string,
     endDate?: string,
     completed: boolean
@@ -14,6 +15,7 @@ export const WORKSHOPS: {
             "number": 1,
             "name": "Personal Website",
             "description": "Start with a basic template & then build a custom personal website!",
+            "moreDescription": "",
             "endDate": "10/1/2022",
             "completed": true
         },
@@ -23,6 +25,7 @@ export const WORKSHOPS: {
             "number": 4,
             "name": "Stuff Finder",
             "description": "Start with a template then build a website to find stuff! Ice cream, stocks, pokemon -- you name it!",
+            "moreDescription": "Start with a template, then build a website to find stuff! Ice cream, stocks, pokemon -- you name it!",
             "startDate": "12/2/2022",
             "completed": true
         }

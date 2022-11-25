@@ -2,21 +2,21 @@ export const stuffWeDo = [
     {
         icon: "codeBracketIcon",
         header: "1. Learn to code",
-        text: "Learn to code through fun, creative workshops. No experience needed!",
+        text: "Learn to code through fun, creative workshops. No experience needed! 😃",
         startColor: "from-cyan-500",
         endColor: "to-cyan-700",
     },
     {
         icon: "buildProjectIcon",
         header: "2. Build projects",
-        text: "Workshops are super customizable & accessible, so you can build things you truly love & post them on the internet!",
+        text: "Workshops are super customizable & accessible, so you can build things you truly love & post them on the internet! 🔨",
         startColor: "from-orange-500",
         endColor: "to-red-500"
     },
     {
         icon: "chatBubbleLeftRightIcon",
         header: "3. Have lots of fun!",
-        text: "Our awesome community has game nights, merch/sticker giveaways, and lots more fun stuff!",
+        text: "Our awesome community has game nights, merch/sticker giveaways, and lots more fun stuff! 🎮" ,
         startColor: "from-pink-500",
         endColor: "to-red-500"
 
