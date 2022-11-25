@@ -16,7 +16,7 @@ const IntroSection: React.FC<{}> = (props) => {
       }
     >
       <Lottie
-        className={"absolute w-full h-screen z-2 opacity-10 rotate-90 sm:rotate-0"}
+        className={"absolute sm:w-full h-screen z-2 opacity-10 "}
         loop
         animationData={lottieJson}
         play

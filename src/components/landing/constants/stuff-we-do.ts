@@ -1,5 +1,3 @@
-import { IStuffType } from '../../../types/IStuffType'
-
 export const stuffWeDo = [
     {
         icon: "codeBracketIcon",
@@ -27,5 +25,5 @@ export const stuffWeDo = [
 
 export const ICON_WIDTH = "w-5";
 export const ICON_HEIGHT = "h-5";
-export const ICON_COLOR = "text-slate-100";
+export const ICON_COLOR = "text-zinc-100 shadow-lg";
 export const LEFT_MARGIN = "-ml-0.5";

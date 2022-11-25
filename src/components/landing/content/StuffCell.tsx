@@ -24,11 +24,11 @@ const StuffCell: React.FC<{
 
     return (
         <div className={
-            `flex-1 bg-gradient-to-br ${props.startColor} ${props.endColor} p-4 rounded-md pb-10 hover:scale-105 hover:cursor-default transition-all shadow-md`
+            `flex-1 bg-gradient-to-br ${props.startColor} ${props.endColor} p-4 rounded-md pb-10 hover:scale-105 hover:cursor-default transition-all drop-shadow-lg`
         }>
             {icons[props.icon]}
             <p className={"font-bold font-Poppins text-white text-xl md:text-2xl"}>{props.header}</p>
-            <p className={"text-white text-sm md:text-md pt-1"}>{props.text}</p>
+            <p className={"font-Poppins text-zinc-100 text-sm md:text-md pt-1"}>{props.text}</p>
 
         </div>
     );

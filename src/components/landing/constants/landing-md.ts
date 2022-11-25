@@ -1,12 +1,16 @@
+import { DISCORD } from "../../../constants/links";
 import { formatDate } from "../../../constants/meetup-date";
 
 const hackclubLink = "https://hackclub.com/";
 
 export const whatsHackClub = `
-[Hack Club](${hackclubLink} "Hack Club Website"), JHHS Hack Club’s parent organization, is a global network of 2,000+ coding clubs where students collaborate on projects, workshops, build hackathons, and more! \n
+[**Hack Club**](${hackclubLink} "Hack Club Website"), JHHS Hack Club’s parent organization, is a global network of 2,000+ coding clubs where students collaborate on projects, workshops, build hackathons, and more! 
 \n &nbsp;
 \n
-JHHS Hack Club is a branch of [Hack Club](${hackclubLink}) built for JHHS!
+**JHHS Hack Club** is a branch of Hack Club built for JHHS.
+\n &nbsp;
+\n
+Instead of hacking into banks or Discord servers, “hacking” refers to building: building things we love.
 
 `;
 
@@ -21,13 +25,14 @@ So instead of hacking for bad, we hack for good! We build things that we love an
 
 `
 export const neverCodedBefore = `
-If you've never coded before, we'll teach you everything you need to know through our workshops, which are super beginner-friendly. If you're reading this text you are ready to do a workshop!
+**Never coded before?**\n
+\n 
+All good! Our workshops are _super beginner-friendly_ and _accessible_, so you don't need any experience to join!\n Leaders & more experienced members are always available to help you out, so don't be afraid to ask questions! We'll help you set up, troubleshoot, and learn new coding techniques.\n
 \n &nbsp;
 \n
-
-If you're more advanced, workshops have more advanced topics covered & code challenges you can try out!
-\n &nbsp;
-\n
+**Master coder?**\n
+\n 
+Awesome! Workshops also have tons of content & code challenges for you to work on, so you can learn new things and build cool projects at a high level!\n
 `
 
 export const howJoin = `
@@ -36,4 +41,26 @@ Our next meetup is on **${formatDate}** at **3:00PM** at Mr. Brown's Room (Room 
 \n
 
 Also, join our Discord! We have an awesome community & announce important info there.
+`
+
+export const moreThanJustMeetups = `
+JHHS Hack Club has lots of stuff after meetups too!
+\n &nbsp;
+\n
+We also have:
+- • **Game Nights** (chill & have fun w/ other members!)
+- • **Hackathons** (24-hour coding events)
+- • **Internships** (last one was from _IBM_!)
+- • **Client Projects** (for clients in D214) 
+
+`
+
+export const joiningInstructions = `
+JHHS Hack Club is open to all skill & grade levels, from zero to master-level experience!\n
+\n &nbsp;
+\n
+Our next meetup is on **${formatDate}** at **3:00PM** at Mr. Brown's Room (Room 158 in the Math Hallway)\n
+\n &nbsp;
+\n
+We recommend joining our [**Discord server**](${DISCORD}) to stay up-to-date on announcements & events!
 `
