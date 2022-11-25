@@ -1,4 +1,5 @@
 import React from "react"
+import { useNavigate } from "react-router-dom";
 const GradientButton: React.FC<{
     link: string;
     text: string;
@@ -6,8 +7,10 @@ const GradientButton: React.FC<{
     endColor: string;
 }> = (props) => {
 
+    const navigate = useNavigate();
+
     const handleClick = () => {
-        window.open(props.link, "_blank")
+        navigate(props.link)
     }
 
     return (
