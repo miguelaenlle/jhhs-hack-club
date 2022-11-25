@@ -6,6 +6,8 @@ import Megasite from "./components/megasite/MegasiteData";
 import PersonalWebsite from "./components/project/allProjects/PersonalWebsite";
 import Workshop from "./components/workshops/Workshop";
 import Workshops from "./components/workshops/Workshops";
+import Showcase from "./components/showcase/Showcase";
+import Content from "./components/landing/content/Content";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           element={<PersonalWebsite />}
         />
         <Route path="/megasite" element={<Megasite />} />
+        <Route path="/showcase" element={<Showcase />} />
       </Routes>
     </div>
   );
