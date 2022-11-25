@@ -7,7 +7,7 @@ const Banner: React.FC<{
 
         <div className={"bg-[url('./img/code.jpg')] bg-opacity-50 bg-cover object-fill p-5 backdrop-blur-xl z-10 shadow-lg"}>
             <div>
-                <BackButton link={"/projects"} />
+                <BackButton link={"/workshops"} />
                 <div className={"py-16"}>
                     <h1 className={"text-4xl md:text-5xl font-bold text-white font-Poppins text-center"}>{props.title}</h1>
                 </div>

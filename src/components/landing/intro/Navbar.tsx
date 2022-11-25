@@ -3,7 +3,7 @@ const Navbar: React.FC<{}> = (props) => {
     return (
         <div className={"flex justify-between items-start"}>
             <a
-                href={"/projects"}
+                href={"/"}
                 className={
                     "text-md md:text-xl font-medium text-white font-Poppins hover:cursor-pointer hover:font-bold transition-all"
                 }
@@ -12,7 +12,7 @@ const Navbar: React.FC<{}> = (props) => {
             </a>
             <div className={"flex flex-col gap-2 items-end"}>
                 <a
-                    href={"/projects"}
+                    href={"/workshops"}
                     className={
                         "text-md md:text-xl font-medium text-white font-Poppins hover:cursor-pointer hover:font-bold transition-all"
                     }

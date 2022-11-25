@@ -42,7 +42,7 @@ const IntroSection: React.FC<{}> = (props) => {
             />
 
             <GradientButton
-              link={"/projects"}
+              link={"/workshops"}
               text={"GO TO WORKSHOPS"}
               startColor={"from-cyan-500"}
               endColor={"to-cyan-700"}
