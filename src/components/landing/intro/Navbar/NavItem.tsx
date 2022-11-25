@@ -8,7 +8,7 @@ const NavItem: React.FC<{
     <a
       href={props.link}
       className={
-        "text-md md:text-xl font-medium text-white font-Poppins hover:cursor-pointer hover:font-bold transition-all"
+        "text-md md:text-lg font-light text-white font-Poppins hover:cursor-pointer hover:font-bold transition-all"
       }
     >
       {props.text}
