@@ -32,7 +32,7 @@ const Projects: React.FC<{}> = (props) => {
       >
         <div className={"flex flex-col align-center max-w-6xl mx-auto gap-5"}>
           <WorkshopItem
-            link={"/projects/personal-website"}
+            link={"/workshops/personal-website"}
             title="Workshop #1: Personal Website"
             firstMeetup={1}
           />
