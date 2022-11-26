@@ -1,8 +1,6 @@
 import React from "react";
 import NavItem from "./NavItem";
 import navimg from "./navimg.png";
-import { ReactDOM } from "react";
-import join from "../../content/Content";
 
 const Navbar: React.FC<{}> = (props) => {
   return (
