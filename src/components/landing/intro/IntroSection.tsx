@@ -10,9 +10,9 @@ import lottieJson from "../assets/lottie.json";
 
 const IntroSection: React.FC<{}> = (props) => {
   return (
-    <div className={"relative bg-neutral-900 h-screen"}>
+    <div className={"relative bg-neutral-900 h-screen overflow-hidden"}>
       <Lottie
-        className={"absolute sm:w-full h-screen z-2 opacity-10 "}
+        className={"absolute w-screen h-screen z-2 opacity-30 md:opacity-10"}
         loop
         animationData={lottieJson}
         play

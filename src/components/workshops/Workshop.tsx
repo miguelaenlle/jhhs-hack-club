@@ -9,11 +9,11 @@ const Workshop: React.FC<{}> = (props) => {
 
     return (
         <div className={"bg-gradient-to-b bg-zinc-900 min-h-screen"}>
-            <AnimatedBg className={"pt-5 px-10"}>
+            <AnimatedBg className={"pt-5 px-5"}>
                 <BackButton link={"/workshops"} />
                 <div className={"pt-12 pb-24"}>
                     <h3 className={"text-center text-5xl font-Poppins text-white font-bold"}>{workshopHook.title}</h3>
-                    <p className={"text-center text-xl font-Poppins text-zinc-300 mt-3 max-w-2xl mx-auto"}>{workshopHook.description}</p>
+                    <p className={"text-center text-lg md:text-xl font-Poppins text-zinc-300 mt-3 max-w-2xl mx-auto"}>{workshopHook.description}</p>
                 </div>
             </AnimatedBg>
             <MarkdownPreview className={"font-Poppins p-10 pt-14 max-w-4xl mx-auto bg-zinc-900"} source={workshopHook.markdown} />
