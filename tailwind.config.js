@@ -12,6 +12,11 @@ module.exports = {
       },
       backgroundImage: {
         "discord": "linear-gradient(to right bottom, rgba(81, 161, 188, 0.9), rgba(142, 48, 182, 0.9)), url('/src/img/app-idea.PNG')"
+      },
+      screens: {
+        mobile: {
+          max: "768px"
+        }
       }
     },
   },

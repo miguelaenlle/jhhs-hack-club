@@ -10,15 +10,14 @@ import lottieJson from "../assets/lottie.json";
 
 const IntroSection: React.FC<{}> = (props) => {
   return (
-    <div className={"relative bg-neutral-900 h-screen"}>
+    <div className={"relative bg-neutral-900 h-screen overflow-hidden"}>
       <Lottie
-        className={"absolute sm:w-full h-screen z-2 opacity-10 "}
+        className={"absolute w-screen h-screen z-2 opacity-30 md:opacity-10"}
         loop
         animationData={lottieJson}
         play
       />
       <div className={"absolute z-10 w-full p-5 pb-20 h-screen"}>
-        <Navbar />
         <div
           className={
             "flex flex-col  py-16 md:py-32 items-center justify-center h-full w-full"
