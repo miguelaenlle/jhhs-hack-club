@@ -32,7 +32,7 @@ const Showcase: React.FC<{}> = (props) => {
         </div>
       </div>
       <div className={"flex flex-col align-center w-200 gap-5"}>
-        <div className="bg-gradient-to-b from-neutral-800 to-neutral-900 p-5 min-h-screen">
+        <div className="bg-gradient-to-b from-neutral-800 to-neutral-900 rounded-lg p-5 min-h-screen">
           <br />
           <div className={"grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"}>
             {showcase.map(showcase => {

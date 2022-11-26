@@ -3,20 +3,30 @@ import * as React from "react";
 import { DISCORD } from "../../../constants/links";
 import GradientButton from "./GradientButton";
 import Header from "./Header";
-import Navbar from "./Navbar/Navbar";
 import Subheader from "./Subheader";
-import Lottie from "react-lottie-player";
-import lottieJson from "../assets/lottie.json";
+import Particles from "react-tsparticles";
 
 const IntroSection: React.FC<{}> = (props) => {
   return (
     <div className={"relative bg-neutral-900 h-screen overflow-hidden"}>
-      <Lottie
+      {/* <Lottie
         className={"absolute w-screen h-screen z-2 opacity-30 md:opacity-10"}
         loop
         animationData={lottieJson}
         play
-      />
+      /> */}
+
+      <Particles
+        params={{
+          polygon: {
+            enable: true,
+            type: 'inside',
+            move: {
+              radius: 10
+            },
+            url: 'path/to/svg.svg'
+          }
+        }} />
       <div className={"absolute z-10 w-full p-5 pb-20 h-screen"}>
         <div
           className={

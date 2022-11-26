@@ -2,7 +2,10 @@ import * as React from "react"
 import BackButton from "../shared/BackButton";
 import { motion } from "framer-motion";
 
-const WorkshopsHeader: React.FC<{}> = (props) => {
+const Header: React.FC<{
+    title: string;
+    description: string;
+}> = (props) => {
     return (
         <div>
             <BackButton
@@ -32,4 +35,4 @@ const WorkshopsHeader: React.FC<{}> = (props) => {
         </div>
     );
 }
-export default WorkshopsHeader
+export default Header

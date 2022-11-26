@@ -1,7 +1,8 @@
 import * as React from "react";
 import { WORKSHOPS } from "../../constants/workshops";
 import WorkshopItem from "./WorkshopItem";
-import WorkshopsHeader from "./WorkshopsHeader";
+import WorkshopsHeader from "./Header";
+import Header from "./Header";
 
 const Workshops: React.FC<{}> = (props) => {
 
@@ -15,7 +16,10 @@ const Workshops: React.FC<{}> = (props) => {
 
     return (
         <div className={"bg-gradient-to-b from-neutral-800 to-neutral-900 p-5 min-h-screen"}>
-            <WorkshopsHeader />
+            <Header
+                title={"Workshops"}
+                description={"Learn to code & build epic projects with this collection of guided, hackable coding workshops!"}
+            />
             <div className={"max-w-5xl mx-auto my-5 mt-10 px-0 md:px-10"}>
                 <h3 className={"text-xl text-orange-500 font-bold font-Poppins"}>What we're doing now 🎯</h3>
                 <div className={"mt-5"}>
