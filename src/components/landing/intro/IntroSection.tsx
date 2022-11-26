@@ -18,7 +18,6 @@ const IntroSection: React.FC<{}> = (props) => {
         play
       />
       <div className={"absolute z-10 w-full p-5 pb-20 h-screen"}>
-        <Navbar />
         <div
           className={
             "flex flex-col  py-16 md:py-32 items-center justify-center h-full w-full"
