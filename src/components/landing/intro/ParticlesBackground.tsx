@@ -40,21 +40,7 @@ const ParticlesBackground: React.FC<{}> = (props) => {
                         value: "#121217",
                     },
                 },
-                fpsLimit: 120,
-                interactivity: {
-                    events: {
-
-                        onClick: {
-                            enable: true,
-                            mode: "push",
-                        },
-                        onHover: {
-                            enable: true,
-                            mode: "connect",
-                        },
-                        resize: true,
-                    }
-                },
+                fpsLimit: 30,
                 particles: {
                     color: {
                         value: "rgba(17,38,34,1)",
@@ -63,11 +49,7 @@ const ParticlesBackground: React.FC<{}> = (props) => {
                         color: "rgba(17,38,34,1)",
                         distance: 150,
                         enable: true,
-                        opacity: 0.5,
                         width: 1,
-                    },
-                    collisions: {
-                        enable: true,
                     },
                     move: {
                         direction: "none",
@@ -79,7 +61,7 @@ const ParticlesBackground: React.FC<{}> = (props) => {
                     number: {
                         density: {
                             enable: true,
-                            area: 1000,
+                            value_area: 800,
                         },
                         value: 100,
                     },
