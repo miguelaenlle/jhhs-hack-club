@@ -9,7 +9,7 @@ const Workshop: React.FC<{}> = (props) => {
 
     return (
         <div className={"bg-gradient-to-b bg-zinc-900 min-h-screen"}>
-            <AnimatedBg className={"pt-5 px-5"}>
+            <AnimatedBg className={"pt-5 px-10"}>
                 <BackButton link={"/workshops"} />
                 <div className={"pt-12 pb-24"}>
                     <h3 className={"text-center text-5xl font-Poppins text-white font-bold"}>{workshopHook.title}</h3>
