@@ -2,13 +2,16 @@ import * as React from "react";
 import Content from "./content/Content";
 import Footer from "./footer/Footer";
 import IntroSection from "./intro/IntroSection";
+
+import NavbarWrapper from "./intro/Navbar/NavbarWrapper";
+
 const LandingPage: React.FC<{}> = (props) => {
     return (
-        <div>
+        <NavbarWrapper>
             <IntroSection />
             <Content />
             <Footer />
-        </div>
+        </NavbarWrapper>
     );
 }
 export default LandingPage

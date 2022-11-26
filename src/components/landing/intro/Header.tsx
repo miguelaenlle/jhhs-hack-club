@@ -17,7 +17,7 @@ const Header: React.FC<{}> = (props) => {
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 transition={{ delay: 0.8, duration: 0.5 }}
                 className={
-                    "text-4xl md:text-8xl font-bold text-white font-Poppins text-center"
+                    "text-5xl md:text-8xl font-bold text-white font-Poppins text-center"
                 }
             >
                 JHHS Hack Club
