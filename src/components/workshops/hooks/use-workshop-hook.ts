@@ -20,7 +20,7 @@ export const useWorkshopHook = () => {
                     fetch(res.default)
                         .then(async (res) => {
                             const content = await res.text();
-                            console.log("content", content);
+                            console.log("content", content)
                             setMarkdown(content);
                         })
                         .catch(err => console.log(err));

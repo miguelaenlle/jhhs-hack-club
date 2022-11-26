@@ -14,7 +14,7 @@ const Content: React.FC<{}> = (props) => {
 
   return (
 
-    <div>
+    <div className={"bg-white"}>
       <div className={"bg-zinc-200 shadow-md"}>
         <div className={"flex flex-col items-center max-w-6xl mx-auto p-10 pb-5 mb-10"}>
           <WhatWeDo />
@@ -58,7 +58,7 @@ const Content: React.FC<{}> = (props) => {
           </div>
         </div>
         <Discord />
-        <div className={"max-w-6xl mx-auto my-5 mb-24"} id="join">
+        <div className={"max-w-6xl mx-auto mt-5 pb-12"} id="join">
           <div className={"p-10"}>
             <ContentHeader
               text={"How to join"}
