@@ -6,6 +6,7 @@ const WorkshopItem: React.FC<{
     workshopNumber: number;
     title: string;
     description: string;
+    customUrl?: string;
     startDate?: string;
     endDate?: string;
 }> = (props) => {
@@ -13,7 +14,11 @@ const WorkshopItem: React.FC<{
     const navigate = useNavigate();
 
     const redirect = () => {
-        navigate(`/workshops/${props.id}`)
+        if (props.customUrl) {
+            window.location.replace(props.customUrl);
+        } else {
+            navigate(`/workshops/${props.id}`)
+        }
     }
 
     return (

@@ -5,6 +5,7 @@ export const WORKSHOPS: {
     name: string,
     description: string,
     moreDescription: string,
+    customUrl?: string,
     startDate?: string,
     endDate?: string,
     completed: boolean
@@ -16,6 +17,7 @@ export const WORKSHOPS: {
             "name": "Personal Website",
             "description": "Start with a basic template & then build a custom personal website!",
             "moreDescription": "",
+            "customUrl": "https://workshops.hackclub.com/personal_website/",
             "endDate": "10/1/2022",
             "completed": true
         },

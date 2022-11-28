@@ -28,6 +28,7 @@ const Workshops: React.FC<{}> = (props) => {
                                 title={workshop.name}
                                 workshopNumber={workshop.number}
                                 description={workshop.description}
+                                customUrl={workshop.customUrl}
                                 startDate={workshop.startDate}
                                 endDate={workshop.endDate}
                             />
@@ -46,6 +47,7 @@ const Workshops: React.FC<{}> = (props) => {
                                 image={workshop.image}
                                 title={workshop.name}
                                 workshopNumber={workshop.number}
+                                customUrl={workshop.customUrl}
                                 description={workshop.description}
                                 startDate={workshop.startDate}
                                 endDate={workshop.endDate}
