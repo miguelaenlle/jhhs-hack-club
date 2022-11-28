@@ -7,16 +7,26 @@ import Navbar from "./Navbar/Navbar";
 import Subheader from "./Subheader";
 import Lottie from "react-lottie-player";
 import lottieJson from "../assets/lottie.json";
+import Video from "./assets/code.mp4";
 
 const IntroSection: React.FC<{}> = (props) => {
   return (
     <div className={"relative bg-neutral-900 h-screen overflow-hidden"}>
-      <Lottie
-        className={"absolute w-screen h-screen z-2 opacity-30 md:opacity-10"}
+
+      <video
+
+        muted
+        autoPlay
+        playsInline
         loop
-        animationData={lottieJson}
-        play
-      />
+        className={"absolute min-w-full min-h-full max-h-none max-w-none z-2 opacity-20 md:opacity-5 blur-sm"}
+      >
+        <source
+          src={Video}
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       <div className={"absolute z-10 w-full p-5 pb-20 h-screen"}>
         <div
           className={

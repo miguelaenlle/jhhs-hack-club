@@ -16,7 +16,9 @@ const Workshop: React.FC<{}> = (props) => {
                     <p className={"text-center text-lg md:text-xl font-Poppins text-zinc-300 mt-3 max-w-2xl mx-auto"}>{workshopHook.description}</p>
                 </div>
             </AnimatedBg>
-            <MarkdownPreview className={"font-Poppins p-10 pt-14 max-w-4xl mx-auto bg-zinc-900"} source={workshopHook.markdown} />
+            <MarkdownPreview warpperElement={{
+                "data-color-mode": "dark"
+            }} className={"p-10 pt-14 max-w-3xl mx-auto bg-zinc-900"} source={workshopHook.markdown} />
         </div>
     );
 }
