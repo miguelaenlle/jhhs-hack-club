@@ -1,4 +1,5 @@
 import * as React from "react"
+import styles from "./Workshop.module.css"
 import BackButton from "../shared/BackButton";
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import { useWorkshopHook } from "./hooks/use-workshop-hook";
@@ -8,7 +9,7 @@ const Workshop: React.FC<{}> = (props) => {
     const workshopHook = useWorkshopHook();
 
     return (
-        <div className={"bg-gradient-to-b bg-zinc-900 min-h-screen"}>
+        <div className={`${styles.markdown} bg-gradient-to-b bg-zinc-900 min-h-screen`}>
             <AnimatedBg className={"pt-5 px-10"}>
                 <BackButton link={"/workshops"} />
                 <div className={"pt-12 pb-24"}>
@@ -18,7 +19,7 @@ const Workshop: React.FC<{}> = (props) => {
             </AnimatedBg>
             <MarkdownPreview warpperElement={{
                 "data-color-mode": "dark"
-            }} className={"p-10 pt-14 max-w-3xl mx-auto bg-zinc-900"} source={workshopHook.markdown} />
+            }} className={`p-10 pt-14 max-w-4xl mx-auto bg-zinc-900 font-Poppins list-disc`} source={workshopHook.markdown} />
         </div>
     );
 }

@@ -46,6 +46,7 @@ const IntroSection: React.FC<{}> = (props) => {
               text={"JOIN THE DISCORD"}
               startColor={"from-orange-500"}
               endColor={"to-red-500"}
+              fullRedirect={true}
             />
 
             <GradientButton

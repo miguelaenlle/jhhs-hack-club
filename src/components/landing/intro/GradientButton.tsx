@@ -5,12 +5,17 @@ const GradientButton: React.FC<{
     text: string;
     startColor: string;
     endColor: string;
+    fullRedirect?: boolean;
 }> = (props) => {
 
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate(props.link)
+        if (props.fullRedirect) {
+            window.open(props.link, "_blank");
+        } else {
+            navigate(props.link)
+        }
     }
 
     return (

@@ -22,7 +22,7 @@ export const WORKSHOPS: {
             "completed": true
         },
         {
-            "id": "stuff-finder",
+            "id": "stuff_finder",
             "image": `https://i.ibb.co/6RDgwmP/Screen-Shot-2022-11-22-at-11-18-57-PM.png`,
             "number": 4,
             "name": "Stuff Finder",
