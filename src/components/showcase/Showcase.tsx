@@ -33,8 +33,10 @@ const Showcase: React.FC<{}> = (props) => {
         <br />
 
         <div className="flex flex-col gap-5">
-          <h2 className=" text-center text-3xl font-Poppins font-bold text-white">Submit your Project to the Showcase!</h2>
-          <iframe className="rounded" width="600" height="300" src="https://1htona3vpjh.typeform.com/to/fuR1LL5n"></iframe>
+          <div className="max-w-xlg mx-auto  ">
+            <h2 className=" text-center text-3xl font-Poppins font-bold text-white">Submit your Project to the Showcase!</h2>
+            <iframe className="w-full aspect-[3/2.5] mt-6 sm:aspect-[2/1]" src="https://1htona3vpjh.typeform.com/to/fuR1LL5n"></iframe>
+          </div>
         </div>
         <br />
         <div className={"m-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"}>
