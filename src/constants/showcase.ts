@@ -1,5 +1,23 @@
 export const showcase = [
   {
+    title: "Trivia Time",
+    backgroundColor: "bg-blue-400",
+    // link: "https://www.notion.so/Trivia-Time-Alexander-Masztak-f572d1075f6b4c73bd0e10ccafd6e733",
+    author: "Alexander Masztak",
+  },
+  {
+    title: "Trivia iOS App",
+    backgroundColor: "bg-blue-400",
+    // link: "https://herseyhack.club/showcase",
+    author: "Ali Alchikh Ibrahim",
+  },
+  {
+    title: "Epic Trivia Challenge with React",
+    backgroundColor: "bg-blue-400",
+    // link: "https://half-walk-bd8.notion.site/iOS-Trivia-App-Rachel-Rafik-1e0b99cd944f48ba942b41cb30b73305",
+    author: "Rachel Rafik",
+  },
+  {
     author: "Adomas",
     title: "sual",
     "color-text": "beige",
