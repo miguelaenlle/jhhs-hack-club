@@ -1,5 +1,3 @@
-# Stuff Finder
-
 In this workshop, you’ll first build an ********************************Ice Cream Finder******************************** 🍨 with APIs, then you’ll be able to hack it to find *anything you’d like*!
 
 *********************************What the final product looks like:*********************************
@@ -14,7 +12,7 @@ In this workshop, you’ll first build an ********************************Ice Cr
 
 🕜  This workshop should take 1 hour to complete
 
-🔨 After that, you’ll have til Meetup 14 (3 meetups from now) to customize the site you build
+🔨 After that, you’ll have til the 12/15 meetup (3 meetups from now) to customize the site you build
 
 💻  *Basic HTML/CSS* is needed to do this workshop, but we also have an ultra-beginner friendly version **here** which requires *zero coding experience*!
 
@@ -394,11 +392,11 @@ If you save the file, the ice cream store list will show up in the Console:
 
 Now that our code has the ability to work with this data - let’s look back at our goals for a second.
 
-- We need to turn **EACH** *Ice Cream Store* into a box on our page, that looks **something like this**:
+- We need to turn each Ice Cream Store into a box on our page, that looks something like this:
 
 ![Screenshot 2022-11-27 at 9.16.37 PM.png](/images//Screenshot_2022-11-27_at_9.16.37_PM.png)
 
-Luckily, the creators of JavaScript *had already thought of this problem* and gave us the `.map()` method! The .map() method in JavaScript allows us to apply an action (function) to every single item in an array, and then RETURN a NEW array, with each item modified.
+Luckily, the creators of JavaScript had already thought of this problem and gave us the `.map()` method! The .map() method in JavaScript allows us to apply an action (function) to every single item in an array, and then RETURN a NEW array, with each item modified.
 
 **EXAMPLE using the .map() method:** 
 
@@ -433,7 +431,7 @@ function findIceCream() {
 }
 ```
 
-Since each ice cream store object will be **passed into this function one by one** when we use `.map()` , we need to add `iceCreamStoreData` as a parameter:
+Since each ice cream store object will be passed into this function one by one when we use `.map()` , we need to add `iceCreamStoreData` as a parameter:
 
 ```jsx
 function createIceCreamStoreDiv(iceCreamStoreData) {
@@ -471,7 +469,7 @@ Now, head back to `script.js`.
 
 
 
-Each time the function is called we want it to **return** a **“result”.** We can use similar HTML to that when we individually displayed a single result earlier in the workshop:
+Each time the function is called we want it to return a “result”. We can use similar HTML to that when we individually displayed a single result earlier in the workshop:
 
 *Don’t write this code, we’ll show you how to add it soon*
 
@@ -511,10 +509,10 @@ Almost done connecting to the API!
 
 —> **Quick Review**
 
-- In order to display **variables inside of strings** in JavaScript, we need to use **special notation**
-- **Backticks** **\` \`** instead of quotations " " and `${variableName}` for each variable in the String.
+- In order to display variables inside of strings in JavaScript, we need to use special notation
+- Backticks \` \` instead of quotations " " and `${variableName}` for each variable in the String.
 
-Now, we must **RETURN** this code inside of **backticks** in our function (remember, we want a `div` for each store) 
+Now, we must return this code inside of  in our function (remember, we want a `div` for each store) 
 
 Note that we’re returning a string:
 
@@ -591,7 +589,7 @@ iceCreamStores.map(
 )
 ```
 
-**`createIceCreamStoreDiv()`** is applied to **EACH received object** from the API and returns an array of outputs from running over each object. 
+**`createIceCreamStoreDiv()`** is applied to *each* received object from the API and returns an array of outputs from running over each object. 
 
 We give this array of objects the name **`iceCreamStores`** and *each* object the name **`iceCreamStore`**
 

@@ -26,8 +26,18 @@ export const WORKSHOPS: {
             "image": `https://i.ibb.co/6RDgwmP/Screen-Shot-2022-11-22-at-11-18-57-PM.png`,
             "number": 4,
             "name": "Stuff Finder",
-            "description": "Start with a template then build a website to find stuff! Ice cream, stocks, pokemon -- you name it!",
-            "moreDescription": "Start with a template, then build a website to find stuff! Ice cream, stocks, pokemon -- you name it!",
+            "description": "Build an ice cream finder with APIs, then customize it to find anything! Basic HTML/CSS knowledge needed.",
+            "moreDescription": "Build an ice cream finder with APIs, then customize it to find anything! Stocks, movies, pokemon, etc",
+            "startDate": "12/2/2022",
+            "completed": true
+        },
+        {
+            "id": "stuff_finder_basics",
+            "image": `/images/Screen_Shot_2022-11-27_at_10.56.04_AM_(1).png`,
+            "number": 4,
+            "name": "Stuff Finder Basics",
+            "description": "Build an ice cream finder, then customize it to find anything! Zero experience needed!",
+            "moreDescription": "Build an ice cream finder with HTML and CSS, then customize it to find anything! Movies, stocks, pokemon -- you name it! No experience needed!",
             "startDate": "12/2/2022",
             "completed": true
         }

@@ -18,7 +18,7 @@ const Workshops: React.FC<{}> = (props) => {
             <WorkshopsHeader />
             <div className={"max-w-5xl mx-auto my-5 mt-10 px-0 md:px-10"}>
                 <h3 className={"text-xl text-orange-500 font-bold font-Poppins"}>What we're doing now 🎯</h3>
-                <div className={"mt-5"}>
+                <div className={" flex flex-col gap-5 mt-5"}>
                     {currentWorkshops.map((workshop, index) => {
                         return (
                             <WorkshopItem

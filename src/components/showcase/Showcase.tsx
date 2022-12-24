@@ -47,6 +47,7 @@ const Showcase: React.FC<{}> = (props) => {
                 backgroundColor={showcase.backgroundColor}
                 link={showcase.link}
                 author={showcase.author}
+                image={showcase.image}
               />
             )
           })}

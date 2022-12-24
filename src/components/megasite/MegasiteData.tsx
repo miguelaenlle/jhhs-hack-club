@@ -23,6 +23,7 @@ const Megasite: React.FC<{}> = (props) => {
                                 title={website.title}
                                 backgroundColor={website.backgroundColor}
                                 link={website.link}
+                                image={website.image}
                                 author={website.author}
                             />
                         )

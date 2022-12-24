@@ -6,7 +6,8 @@ const ShowcaseItem: React.FC<{
     title: string,
     backgroundColor: string,
     link: string,
-    author: string
+    author: string,
+    image?: string
 }> = (props) => {
 
     const redirect = () => {
@@ -16,7 +17,12 @@ const ShowcaseItem: React.FC<{
     return (
         <div onClick={redirect} className={`rounded-xl ${props.backgroundColor} hover:cursor-pointer hover:scale-105 transition-all`}>
             <div className={"bg-white h-44 rounded-xl overflow-hidden cursor-zoom-out"}>
-                <iframe className={styles.iframe} src={props.link} />
+                {props.image ? (
+                    <img className={"w-full h-full object-cover"} src={props.image} />
+                ) : (
+                    <iframe className={styles.iframe} src={props.link} />
+
+                )}
             </div>
             <div className={"rounded-xl p-3 pb-4"}>
                 <p className={"text-white font-bold font-Poppins text-xl"}>{props.title}</p>
