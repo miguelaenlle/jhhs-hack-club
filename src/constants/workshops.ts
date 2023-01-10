@@ -22,6 +22,16 @@ export const WORKSHOPS: {
             "completed": true
         },
         {
+            "id": "hack_kahoot",
+            "image": `https://i.ibb.co/pnRFgqv/kahoot-hack.png`,
+            "number": 5,
+            "name": "Hacking Kahoot",
+            "description": "Hack Kahoot to make it do whatever you want! 🐱‍💻",
+            "moreDescription": "Hack Kahoot to make it do whatever you want!",
+            "startDate": "12/2/2022",
+            "completed": true
+        },
+        {
             "id": "stuff_finder",
             "image": `https://i.ibb.co/6RDgwmP/Screen-Shot-2022-11-22-at-11-18-57-PM.png`,
             "number": 4,
