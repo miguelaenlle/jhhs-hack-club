@@ -38,6 +38,13 @@ export const showcase: {
       "image": "https://i.ibb.co/pnGDbc4/Screenshot-2022-12-15-at-9-00-11-PM.png"
     },
     {
+      'author': 'Paul Brown',
+      'title': 'The 2 for 6 Bucks menu',
+      'color-text': 'maroon',
+      'backgroundColor': 'bg-red-900',
+      'link': 'https://jeef.carterbanholzer.repl.co'
+    },
+    {
       'author': 'Adomas',
       'title': 'Saul',
       'color-text': 'beige',
