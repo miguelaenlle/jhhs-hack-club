@@ -23,7 +23,7 @@ const WorkshopItem: React.FC<{
 
     return (
         <div onClick={redirect} className={"overflow-hidden rounded-lg bg-gradient-to-b from-neutral-800 to-neutral-900 hover:scale-105 hover:cursor-pointer transition-all"}>
-            <img className={"object-cover w-full h-64 rounded-xl opacity-30"} alt={`${props.title}`} src={props.image} />
+            <img className={"object-cover w-full h-64 rounded-xl opacity-80"} alt={`${props.title}`} src={props.image} />
             <div className={"p-5"}>
                 <p className={"font-Poppins text-zinc-200 font-medium text-xl"}>{props.title}</p>
                 <p className={"font-Poppins text-zinc-400 text-md mt-1"}>{props.description}</p>
