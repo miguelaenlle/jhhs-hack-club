@@ -6,11 +6,11 @@ import WorkshopsHeader from "./WorkshopsHeader";
 const Workshops: React.FC<{}> = (props) => {
 
     const currentWorkshops = WORKSHOPS.filter((workshop) => {
-        return workshop.endDate === undefined
+        return !workshop.completed
     });
 
     const completedWorkshops = WORKSHOPS.filter((workshop) => {
-        return workshop.endDate !== undefined
+        return workshop.completed
     });
 
     return (
