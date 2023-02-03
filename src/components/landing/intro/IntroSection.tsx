@@ -12,7 +12,6 @@ import Video from "./assets/code.mp4";
 const IntroSection: React.FC<{}> = (props) => {
   return (
     <div className={"relative bg-neutral-900 h-screen overflow-hidden"}>
-
       <video
 
         muted
