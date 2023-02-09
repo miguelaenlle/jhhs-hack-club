@@ -54,8 +54,9 @@ const Navbar: React.FC<{
         <div className={"flex items-end"}>
           <NavItem link={DISCORD} text={"Join Hack Club"} transparent={(props.transparent && !opened)} />
         </div>
+        {/* </div> */}
       </div>
-      {/* </div> */}
+
     </div>
   );
 };
