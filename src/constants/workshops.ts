@@ -11,13 +11,34 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "speak_colors_live",
+        "image": "https://i.ibb.co/2YPVjgD/cool-colors.gif",
+        "number": 11,
+        "name": "Speak Colors Live",
+        "description": "Resources for the Speak Colors workshop",
+        "moreDescription": "Resources for the Speak Colors live workshop",
+        "completed": false
+    },
+    {
+        "id": "speak_colors",
+        "image": `https://i.ibb.co/2YPVjgD/cool-colors.gif`,
+        "number": 10,
+        "name": "Speak Colors",
+        "description": "Build a website that changes colors with your voice using HTML, CSS, and JS!",
+        "moreDescription": "Build a website that changes colors with your voice using HTML, CSS, and JS!",
+        customUrl: "https://workshops.hackclub.com/speak_colors/",
+        "startDate": "12/2/2022",
+        "completed": false
+    },
+
+    {
         "id": "weather_app_live",
         "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
         "number": 11,
         "name": "Weather App Live",
         "description": "Resources for the Weather App workshop",
         "moreDescription": "Resources for the Weather App workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "weather_app",
@@ -28,7 +49,7 @@ export const WORKSHOPS: {
         "moreDescription": "Build a Weather App using HTML, CSS, and JS!",
         customUrl: "https://workshops.hackclub.com/weather_app/",
         "startDate": "12/2/2022",
-        "completed": false
+        "completed": true
     },
     {
         "id": "sound_galaxy_live",

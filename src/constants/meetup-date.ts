@@ -2,7 +2,8 @@ const getDate = () => {
     var dayOfWeek = 5; //friday
     var date = new Date();
     const dateBlacklist = [
-        new Date("2/17/2023")
+        new Date("2/17/2023"),
+        new Date("")
     ]
 
     // If today is Friday, add 7 days
