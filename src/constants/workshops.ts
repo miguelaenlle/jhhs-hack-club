@@ -11,13 +11,54 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "speak_colors_live",
+        "image": "https://i.ibb.co/2YPVjgD/cool-colors.gif",
+        "number": 11,
+        "name": "Speak Colors Live",
+        "description": "Resources for the Speak Colors workshop",
+        "moreDescription": "Resources for the Speak Colors live workshop",
+        "completed": false
+    },
+    {
+        "id": "speak_colors",
+        "image": `https://i.ibb.co/2YPVjgD/cool-colors.gif`,
+        "number": 10,
+        "name": "Speak Colors",
+        "description": "Build a website that changes colors with your voice using HTML, CSS, and JS!",
+        "moreDescription": "Build a website that changes colors with your voice using HTML, CSS, and JS!",
+        customUrl: "https://workshops.hackclub.com/speak_colors/",
+        "startDate": "12/2/2022",
+        "completed": false
+    },
+
+    {
+        "id": "weather_app_live",
+        "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
+        "number": 11,
+        "name": "Weather App Live",
+        "description": "Resources for the Weather App workshop",
+        "moreDescription": "Resources for the Weather App workshop",
+        "completed": true
+    },
+    {
+        "id": "weather_app",
+        "image": `https://cloud-fw0yxvsf2.vercel.app/0screenshot_from_2020-10-23_19-26-13.png`,
+        "number": 10,
+        "name": "Weather App",
+        "description": "Build a Weather App using HTML, CSS, and JS!",
+        "moreDescription": "Build a Weather App using HTML, CSS, and JS!",
+        customUrl: "https://workshops.hackclub.com/weather_app/",
+        "startDate": "12/2/2022",
+        "completed": true
+    },
+    {
         "id": "sound_galaxy_live",
         "image": `https://i.ibb.co/BCxhmkm/sound-gal.gif`,
         "number": 11,
         "name": "Sound Galaxy Live",
         "description": "Resources for the Sound Galaxy workshop",
         "moreDescription": "Resources for the Sound Galaxy workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "sound_galaxy",
@@ -28,7 +69,7 @@ export const WORKSHOPS: {
         "moreDescription": "Build a sound visualizer using HTML, JS, and P5!",
         customUrl: "https://workshops.hackclub.com/sound_galaxy/",
         "startDate": "12/2/2022",
-        "completed": false
+        "completed": true
     },
     {
         "id": "teachable_machine_live",
