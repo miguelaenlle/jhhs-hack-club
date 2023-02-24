@@ -57,7 +57,7 @@ const IntroSection: React.FC<{}> = (props) => {
             <a
               href='https://forms.gle/h3hZ2DUEe6edzSJNA'
               className={
-                `bg-gradient-to-br from-purple-400 to-purple-700 rounded-full p-3 px-7 w-fit hover:cursor-pointer hover:scale-105 transition-all`
+                `bg-gradient-to-br from-green-400 to-green-700 rounded-full p-3 px-7 w-fit hover:cursor-pointer hover:scale-105 transition-all`
               }
             >
               <div className='flex'>
@@ -70,7 +70,7 @@ const IntroSection: React.FC<{}> = (props) => {
                     "text-md text-white font-Poppins font-bold"
                   }
                 >
-                  Merch Interest Form
+                  Merch Order Form
                 </p>
               </div>
             </a>
