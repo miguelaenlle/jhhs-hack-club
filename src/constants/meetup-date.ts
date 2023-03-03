@@ -1,6 +1,11 @@
 const getDate = () => {
     var dayOfWeek = 5; //friday
     var date = new Date();
+
+    // reduce the date by 1
+    date.setDate(date.getDate() - 1);
+
+
     const dateBlacklist = [
         new Date("2/17/2023"),
         new Date("")

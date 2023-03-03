@@ -38,7 +38,7 @@ const Workshops: React.FC<{}> = (props) => {
             </div>
             <div className={"max-w-5xl mx-auto my-5 mt-20 px-0 md:px-10"}>
                 <h3 className={"text-xl text-green-500 font-bold font-Poppins"}>Finished workshops ✅</h3>
-                <div className={"mt-5"}>
+                <div className={"mt-5 space-y-5"}>
                     {completedWorkshops.map((workshop, index) => {
                         return (
                             <WorkshopItem

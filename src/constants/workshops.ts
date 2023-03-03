@@ -11,13 +11,33 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "personal_website_v2_live",
+        "image": "https://i.ibb.co/Lk1NcyN/sam-poder.png",
+        "number": 11,
+        "name": "Personal Website V2 Live",
+        "description": "Build your own personal website live, V2!",
+        "moreDescription": "Build your own personal website live, V2!",
+        "completed": false
+    },
+
+    {
+        "id": "personal_website_v2",
+        "image": "https://i.ibb.co/fqLCHq3/kat-h.png",
+        "number": 11,
+        "name": "Personal Website V2",
+        "description": "Build your own personal website, V2!",
+        "moreDescription": "Build your own personal website, V2!",
+        "completed": false
+    },
+
+    {
         "id": "speak_colors_live",
         "image": "https://i.ibb.co/2YPVjgD/cool-colors.gif",
         "number": 11,
         "name": "Speak Colors Live",
         "description": "Resources for the Speak Colors workshop",
         "moreDescription": "Resources for the Speak Colors live workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "speak_colors",
@@ -28,9 +48,8 @@ export const WORKSHOPS: {
         "moreDescription": "Build a website that changes colors with your voice using HTML, CSS, and JS!",
         customUrl: "https://workshops.hackclub.com/speak_colors/",
         "startDate": "12/2/2022",
-        "completed": false
+        "completed": true
     },
-
     {
         "id": "weather_app_live",
         "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
