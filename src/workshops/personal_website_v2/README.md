@@ -83,13 +83,13 @@ As mentioned before, all information is wrapped in tags. Tags are predefined in 
 
 Go ahead and add your name in a heading tag, and your description in a paragraph tag, in between the opening (`<body>`) and closing (`</body>`) tags. Here is Prophet Orpheus's name and description:
 
-```
+```html
 <!DOCTYPE html><html><head> </head><body><h1>Prophet Orpheus</h1><p>Coder Dino Will code for food</p></body></html>
 ```
 
 If your description was a few paragraphs, or had line breaks, you may have noticed that one `<p></p>` doesn't quite cut it. Adding extra blank lines or spaces between words in HTML does not change the spacing of the content. We can solve this by placing each paragraph in its own `<p></p>`.
 
-```
+```html
 <!DOCTYPE html><html><head> </head><body><h1>Prophet Orpheus</h1><p>Coder Dino</p><p>Will code for food</p></body></html>
 ```
 
@@ -101,7 +101,7 @@ First, find an image you would like to include in your page. You can find someth
 
 Images are included in HTML via the image tag, or `<img>`. The image tag has an attribute called `src`, which will hold the *source* URL of the image you want to display. As an example, if I were to add this picture of Prophet Orpheus, I would right click it and get the source URL, which in this case is https://github.com/hackclub/dinosaurs/raw/master/smart_dinosaur_docs.png, and put it in an image tag like so:
 
-```
+```html
 <img
   src="https://github.com/hackclub/dinosaurs/raw/master/smart_dinosaur_docs.png"/>
 ```
@@ -110,7 +110,7 @@ You may have noticed that the image tag doesn't have a closing tag like `<h1></
 
 Go ahead and add this into your `index.html` now. I put my picture before my heading, and my code looks like this:
 
-```
+```html
 <!DOCTYPE html><html><head> </head><body><img
       src="https://github.com/hackclub/dinosaurs/raw/master/smart_dinosaur_docs.png"/><h1>Prophet Orpheus</h1><p>Coder Dino</p><p>Will code for food</p></body></html>
 ```
@@ -135,7 +135,7 @@ We already have an `style.css` in the file tree and this is called an external
 
 Although we have a CSS file, until we explicitly tell the HTML file to use the CSS file, it will not use it. We must explicitly link the CSS file in the HTML. We'll do this by typing the following into the head of `index.html` (between `<head>` and `</head>`), because the head is where we tell information about the page to the browser.
 
-```
+```html
 <link rel="stylesheet" href="style.css" />
 ```
 
@@ -143,7 +143,7 @@ Although we have a CSS file, until we explicitly tell the HTML file to use the C
 
 Our HTML file now looks like so:
 
-```
+```html
 <!DOCTYPE html><html><head><link rel="stylesheet" href="style.css" /></head><body><img
       src="https://github.com/hackclub/dinosaurs/raw/master/smart_dinosaur_docs.png"/><h1>Prophet Orpheus</h1><p>Coder Dino</p><p>Will code for food</p></body></html>
 ```
@@ -154,7 +154,7 @@ Now that we've linked our CSS file to our HTML file, let's write some CSS to res
 
 Open up `style.css` and type the following:
 
-```
+```css
 img {
   width: 200px;
 }
@@ -169,7 +169,7 @@ Next, we're going to center-align the entire body section.
 
 We'll add…
 
-```
+```css
 body {
   text-align: center;
 }
@@ -180,7 +180,7 @@ As with resizing the image, this rule specifies that every `body` tag should h
 
 Now let's change the font of our text. We'll add another attribute, `font-family`, to the `body` rule, and set the value to `"Arial"`. Now it will look like this:
 
-```
+```css
 body {
   text-align: center;
   font-family: 'Arial';
@@ -190,7 +190,7 @@ body {
 
 You can take this even further by adding a bit of color to the page! The attribute `color` **(spelled without a u)** allows you to set the text color, and `background-color` allows you to set a background color. You can find a list of supported color names over at [W3Schools](https://www.w3schools.com/colors/colors_names.asp). Keep in mind that it's a good ifdea to pick a combination of colors will keep the text readable.
 
-```
+```css
 body {
   text-align: center;
   font-family: 'Arial';

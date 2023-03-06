@@ -29,6 +29,21 @@ export const showcase: {
       'link': 'https://www.youtube.com/shorts/kafx_gAI4_I',
       "image": "https://i.ibb.co/yqSSQQS/thum.png"
     },
+    
+    {
+      'author': 'Paul Brown',
+      'title': 'Meme generator (real)',
+      'color-text': 'brown',
+      'backgroundColor': 'bg-amber-900',
+      'link': '	https://mem-1.carterbanholzer.repl.co',
+    },
+    {
+      'author': 'Paul Brown',
+      'title': 'The 2 for 6 bucks menu',
+      'color-text': 'brown',
+      'backgroundColor': 'bg-amber-900',
+      'link': '	https://jeef.carterbanholzer.repl.co',
+    },
     {
       'author': 'Alex Masztak',
       'title': 'Trivia Time',
