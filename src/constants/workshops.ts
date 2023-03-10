@@ -11,15 +11,33 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "pixel_pad_live",
+        "image": "https://i.ibb.co/c8YHYJD/live-banner.png",
+        "number": 11,
+        "name": "Pixel Pad Live",
+        "description": "Build your own Pixel Pad using HTML and Java!",
+        "moreDescription": "Build your own Pixel Pad using HTML and Java!",
+        "completed": false
+    },
+    {
+        "id": "pixel_pad",
+        "image": "https://i.ibb.co/hXqYmVx/self-guided-banner.png",
+        "number": 11,
+        "name": "Pixel Pad",
+        "description": "Build your own Pixel Pad using HTML and Java!",
+        "moreDescription": "Build your own Pixel Pad using HTML and Java!",
+        "completed": false,
+        "customUrl": "https://workshops.hackclub.com/pixel_art_pad/"
+    },
+    {
         "id": "personal_website_v2_live",
         "image": "https://i.ibb.co/Lk1NcyN/sam-poder.png",
         "number": 11,
         "name": "Personal Website V2 Live",
         "description": "Build your own personal website live, V2!",
         "moreDescription": "Build your own personal website live, V2!",
-        "completed": false
+        "completed": true
     },
-
     {
         "id": "personal_website_v2",
         "image": "https://i.ibb.co/fqLCHq3/kat-h.png",
@@ -27,9 +45,8 @@ export const WORKSHOPS: {
         "name": "Personal Website V2",
         "description": "Build your own personal website, V2!",
         "moreDescription": "Build your own personal website, V2!",
-        "completed": false
+        "completed": true
     },
-
     {
         "id": "speak_colors_live",
         "image": "https://i.ibb.co/2YPVjgD/cool-colors.gif",
