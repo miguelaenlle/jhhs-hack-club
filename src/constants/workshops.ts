@@ -11,13 +11,31 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "soundboard_live",
+        "image": "https://i.ibb.co/L0T57MR/gaming-sb.gif",
+        "number": 11,
+        "name": "Sound Board Live",
+        "description": "Build a custom soundboard using HTML, CSS, and JS!",
+        "moreDescription": "Build a custom soundboard using HTML, CSS, and JS!",
+        "completed": false
+    },
+    {
+        "id": "soundboard",
+        "image": "https://i.ibb.co/7y9rwKh/clash-sb.png",
+        "number": 11,
+        "name": "Sound Board",
+        "description": "Build a custom soundboard using HTML, CSS, and JS!",
+        "moreDescription": "Build a custom soundboard using HTML, CSS, and JS!",
+        "completed": false,
+    },
+    {
         "id": "pixel_pad_live",
         "image": "https://i.ibb.co/c8YHYJD/live-banner.png",
         "number": 11,
         "name": "Pixel Pad Live",
         "description": "Build your own Pixel Pad using HTML and Java!",
         "moreDescription": "Build your own Pixel Pad using HTML and Java!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "pixel_pad",
@@ -26,7 +44,7 @@ export const WORKSHOPS: {
         "name": "Pixel Pad",
         "description": "Build your own Pixel Pad using HTML and Java!",
         "moreDescription": "Build your own Pixel Pad using HTML and Java!",
-        "completed": false,
+        "completed": true,
         "customUrl": "https://workshops.hackclub.com/pixel_art_pad/"
     },
     {
