@@ -43,10 +43,21 @@ Image: [https://preview.redd.it/why-are-discord-notifications-so-bad-bad-badly-d
 Sound Effect: [https://www.myinstants.com/media/sounds/discord-sounds.mp3](https://www.myinstants.com/media/sounds/discord-sounds.mp3)<br/>
 Image: [https://i.ibb.co/8jvg7mn/ongoing-clal.png](https://i.ibb.co/8jvg7mn/ongoing-clal.png)<br/>
 
+<br/>
 
-## Resources to Hack Your Site
+## Resources to Hack your Site!
+Now that you've finished the Sound Board workshop, it's time to hack your sound board! Check out the inspiration and guides on a) getting custom sounds and b) recording custom sounds!
 
-Follow the two guides below to customize the sounds of your website!
+## Some Inspiration
+<br/>
+
+<img src="https://i.ibb.co/hLLC0gz/clash-sb-1.png">
+<a href="https://Basic-SoundBoard.342fh823fh8.repl.co" target="_blank">Clash Soundboard</a><br/><br/>
+<br/>
+<img src="https://i.ibb.co/pQKBnn7/gaming-sb.png">
+<a href="https://Live-Completed-Images.342fh823fh8.repl.co" target="_blank">Gaming Soundboard</a>
+
+<br/>
 
 ## How to get custom sounds from the Internet:
 
