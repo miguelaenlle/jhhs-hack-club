@@ -45,7 +45,7 @@ Image: [https://i.ibb.co/8jvg7mn/ongoing-clal.png](https://i.ibb.co/8jvg7mn/ongo
 
 <br/>
 
-## Resources to Hack your Site!
+## Resources to Hack your Site
 Now that you've finished the Sound Board workshop, it's time to hack your sound board! Check out the inspiration and guides on a) getting custom sounds and b) recording custom sounds!
 
 ## Some Inspiration

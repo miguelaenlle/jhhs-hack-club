@@ -70,7 +70,6 @@ const IntroSection: React.FC<{}> = (props) => {
                 >
                   HSHacks Hackathon
                 </p>
-                <p className={"text-green-500 mb-[2px]"}>NEW</p>
               </div>
             </a>
           </motion.div>

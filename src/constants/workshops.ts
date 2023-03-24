@@ -11,13 +11,31 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "vr_live",
+        "image": "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
+        "number": 11,
+        "name": "VR World Live",
+        "description": "Resources for the live VR world workshop!",
+        "moreDescription": "Build a custom VR world in Replit using AFrame and HTML!",
+        "completed": false
+    },
+    {
+        "id": "vr",
+        "image": "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
+        "number": 11,
+        "name": "VR World",
+        "description": "Build a custom VR world in Replit using AFrame and HTML!",
+        "moreDescription": "Build a custom VR world in Replit using AFrame and HTML!",
+        "completed": false
+    },
+    {
         "id": "soundboard_live",
         "image": "https://i.ibb.co/L0T57MR/gaming-sb.gif",
         "number": 11,
         "name": "Sound Board Live",
         "description": "Build a custom soundboard using HTML, CSS, and JS!",
         "moreDescription": "Build a custom soundboard using HTML, CSS, and JS!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "soundboard",
@@ -26,7 +44,7 @@ export const WORKSHOPS: {
         "name": "Sound Board",
         "description": "Build a custom soundboard using HTML, CSS, and JS!",
         "moreDescription": "Build a custom soundboard using HTML, CSS, and JS!",
-        "completed": false,
+        "completed": true,
     },
     {
         "id": "pixel_pad_live",
