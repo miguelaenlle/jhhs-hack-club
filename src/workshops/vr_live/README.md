@@ -1,6 +1,6 @@
 In this workshop, you'll build a custom **VR World** using HTML and A-Frame!
 
-_What the final product looks like_
+_What the final product will look like_
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/uqGSTCnqKec?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
 <br/>

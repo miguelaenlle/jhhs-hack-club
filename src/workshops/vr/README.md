@@ -68,7 +68,21 @@ This will render a beautifully textured sky.
 
 ![Sky texture](https://cloud-dytwphipl.vercel.app/0screen_recording_2020-11-16_at_6.19.29_pm.gif)
 
-Now that we have a sky, we'll need a floor too. We can simply do this using the `<a-plane>` component.
+Now that we have a sky, we'll need a floor too. 
+
+First, import the ground image (`ground.jpg`):
+
+```html
+<a-assets>
+    <img id="sky-texture" src="sky.jpg">
+
+
+    <img id="ground" src="ground.jpg">
+</a-assets>
+```
+
+Then, use `<a-plane>` to add the ground to the world:
+
 ```html
 <a-plane src="#ground" height="10" width="10" rotation="-90 0 0"></a-plane>
 ```

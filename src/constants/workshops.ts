@@ -11,13 +11,32 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "particle_physics_live",
+        "image": "https://i.ibb.co/jGG6sLY/satisfying-1.gif",
+        "number": 11,
+        "name": "Particle Physics Live",
+        "description": "Resources for the live particle physics workshop!",
+        "moreDescription": "Build a custom particle physics simulation using HTML and P5.JS!",
+        "completed": false
+    },
+    {
+        "id": "",
+        "image": "https://i.ibb.co/TWyYVmy/particlephysics.gif",
+        "number": 11,
+        "customUrl": "https://workshops.hackclub.com/particle_physics/",
+        "name": "Particle Physics",
+        "description": "Build a particle physics simulation website using HTML and JS!",
+        "moreDescription": "Build a particle physics simulation website using HTML and JS!",
+        "completed": false
+    },
+    {
         "id": "vr_live",
         "image": "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
         "number": 11,
         "name": "VR World Live",
         "description": "Resources for the live VR world workshop!",
         "moreDescription": "Build a custom VR world in Replit using AFrame and HTML!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "vr",
@@ -26,7 +45,7 @@ export const WORKSHOPS: {
         "name": "VR World",
         "description": "Build a custom VR world in Replit using AFrame and HTML!",
         "moreDescription": "Build a custom VR world in Replit using AFrame and HTML!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "soundboard_live",
