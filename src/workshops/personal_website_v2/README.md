@@ -1,7 +1,5 @@
 In this workshop, you’ll build your own **Personal Website**!
 
-# Skip to Part V if you did the workshop at the beginning of the year!
-
 *Here is an image of what the base looks like (before we all customize it!):*
 
 ![Untitled](https://i.ibb.co/nQ5qMp9/Untitled.png)
