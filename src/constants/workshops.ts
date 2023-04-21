@@ -11,13 +11,32 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "monkey_live",
+        "image": "https://i.ibb.co/zncr2J1/hctype.gif",
+        "number": 11,
+        "name": "MonkeyType 2.0 Live",
+        "description": "Resources for the live MonkeyType 2.0 workshop!",
+        "moreDescription": "Build a custom MonkeyType clone with HTML, CSS, and JS!",
+        "completed": false
+    },
+    {
+        "id": "",
+        "image": "https://cloud-gny03pu07.vercel.app/0javascript_typing_test_cover.png",
+        "number": 11,
+        "customUrl": "https://workshops.hackclub.com/javascript_typing_test/",
+        "name": "Typing Test Self-Guided",
+        "description": "Build a Typing Test with HTML, CSS, and JS!",
+        "moreDescription": "Build a Typing Test with HTML, CSS, and JS!",
+        "completed": false
+    },
+    {
         "id": "particle_physics_live",
         "image": "https://i.ibb.co/jGG6sLY/satisfying-1.gif",
         "number": 11,
         "name": "Particle Physics Live",
         "description": "Resources for the live particle physics workshop!",
         "moreDescription": "Build a custom particle physics simulation using HTML and P5.JS!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "",
@@ -27,7 +46,7 @@ export const WORKSHOPS: {
         "name": "Particle Physics",
         "description": "Build a particle physics simulation website using HTML and JS!",
         "moreDescription": "Build a particle physics simulation website using HTML and JS!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "vr_live",

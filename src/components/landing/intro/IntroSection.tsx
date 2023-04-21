@@ -54,24 +54,6 @@ const IntroSection: React.FC<{}> = (props) => {
               startColor={"from-cyan-500"}
               endColor={"to-cyan-700"}
             />
-            <a
-              href='https://hshacks.org/'
-              className={
-                `bg-gradient-to-br from-[#0C6885] to-[#5E0D84] rounded-full p-3 px-5 w-fit hover:cursor-pointer hover:scale-105 transition-all`
-              }
-              target={"_blank"}
-            >
-              <div className='flex items-center gap-2'>
-                <img src={"https://hshacks.org/static/media/logo.bc36ba9c0dca76280398.PNG"} className={"h-7"} />
-                <p
-                  className={
-                    "text-md text-white font-Poppins font-bold"
-                  }
-                >
-                  HSHacks Hackathon
-                </p>
-              </div>
-            </a>
           </motion.div>
         </div>
       </div>

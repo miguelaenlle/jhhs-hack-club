@@ -4,7 +4,7 @@ In this workshop, you’ll build your own **Personal Website**!
 
 ![Untitled](https://i.ibb.co/nQ5qMp9/Untitled.png)
 
-🕙 This workshop will take one meetup.
+🕙 This workshop will take one hour.
 
 💻 This workshop requires **no prior coding experience.**
 
@@ -15,7 +15,7 @@ In this workshop, you’ll build your own **Personal Website**!
 To get started:
 
 1) Create an account on <a href="https://repl.it" target="_blank">repl.it</a>, our code editor
-2) Clone the starter code <a href="https://replit.com/@AlexStrugacz1/astrugaczs-Personal-Website-Starter-Code?v=1" target="_blank">here</a>
+2) Clone the starter code <a href="https://repl.it/languages/html" target="_blank">here</a>
 
 Once you **clone** the starter code, your screen should look like this:
 
@@ -260,14 +260,6 @@ A good way to get ideas for what to add to your website is to look at other peop
 
 <br/>
 
-
-# Part VI: Showcase
-### To submit your site to our Hersey Hack Club Showcase…
-
-- Head over to <a href="https://herseyhack.club/showcase" target="_blank">https://herseyhack.club/showcase</a>
-- Fill out the simple form and include the link to your website
-
-**We will update the showcase soon after the meetup to put new sites up!**
 
 ## Cool Resources
 [Fonts you can use](https://www.w3.org/Style/Examples/007/fonts.en.html)
