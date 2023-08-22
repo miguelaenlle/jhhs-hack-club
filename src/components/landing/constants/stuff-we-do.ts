@@ -9,7 +9,7 @@ export const stuffWeDo = [
     {
         icon: "buildProjectIcon",
         header: "2. Build projects",
-        text: "Workshops are super customizable & accessible, so you can build things you truly love & post them on the internet! 🔨",
+        text: "Workshops are super customizable & accessible, so you can build things you truly love! 🔨",
         startColor: "from-orange-500",
         endColor: "to-red-500"
     },

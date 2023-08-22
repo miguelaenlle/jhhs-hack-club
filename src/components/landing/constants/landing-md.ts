@@ -49,9 +49,8 @@ JHHS Hack Club has lots of stuff after meetups too!
 \n
 We also have:
 - • **🎮 Game Nights** (chill & have fun w/ other members!)
-- • **💻 Hackathons** (24-hour coding events)
-- • **🔨 Client Projects** (for clients in D214) 
-- • **💼 Internships** (last one was from _IBM_!)
+- • **💻 Hackathons** (12 to 36-hour coding events)
+- • **💼 Internships** (last one was Hersey Developers, our student-led CS internship)
 
 `
 
