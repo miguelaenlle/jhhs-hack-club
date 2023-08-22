@@ -34,12 +34,13 @@ const Showcase: React.FC<{}> = (props) => {
 
         <div className="flex flex-col gap-5">
           <div className="max-w-xlg mx-auto  ">
-            <h2 className=" text-center text-3xl font-Poppins font-bold text-white">Submit your Project to the Showcase!</h2>
-            <iframe className="w-full aspect-[3/2.5] mt-6 sm:aspect-[2/1]" src="https://1htona3vpjh.typeform.com/to/fuR1LL5n"></iframe>
+            {/* <h2 className=" text-center text-3xl font-Poppins font-bold text-white">Submit your Project to the Showcase!</h2> */}
+            <p className="font-Poppins text-zinc-300 text-center mt-3">Coming soon...</p>
+            {/* <iframe className="w-full aspect-[3/2.5] mt-6 sm:aspect-[2/1]" src="https://1htona3vpjh.typeform.com/to/fuR1LL5n"></iframe> */}
           </div>
         </div>
         <br />
-        <div className={"m-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"}>
+        {/* <div className={"m-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"}>
           {showcase.map(showcase => {
             return (
               <ShowcaseItem
@@ -51,7 +52,7 @@ const Showcase: React.FC<{}> = (props) => {
               />
             )
           })}
-        </div>
+        </div> */}
       </div>
     </div>
 
