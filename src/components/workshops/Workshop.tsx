@@ -15,7 +15,7 @@ const Workshop: React.FC<{}> = (props) => {
                 <BackButton link={"/workshops"} />
                 <div className={"pt-12 pb-24"}>
                     <h3 className={"text-center text-5xl text-white font-bold"}>{workshopHook.title}</h3>
-                    <p className={"text-center text-lg md:text-xl font-Poppins text-zinc-300 mt-3 max-w-2xl mx-auto"}>{workshopHook.description}</p>
+                    <p className={"text-center text-lg md:text-xl font-Poppins text-zinc-100 mt-3 max-w-2xl mx-auto"}>{workshopHook.description}</p>
                 </div>
             </AnimatedBg>
             <MarkdownPreview warpperElement={{

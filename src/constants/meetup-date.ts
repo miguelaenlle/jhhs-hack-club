@@ -37,5 +37,5 @@ const getDate = () => {
 
     return new Intl.DateTimeFormat("en-US").format(date);
 }
-// export const formatDate = getDate();
-export const formatDate = "9/8/2023"
+export const formatDate = getDate();
+// export const formatDate = "9/8/2023"

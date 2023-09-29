@@ -54,6 +54,27 @@ const IntroSection: React.FC<{}> = (props) => {
               startColor={"from-cyan-500"}
               endColor={"to-cyan-700"}
             />
+
+            <a
+              href='https://herseydevelopers.org/'
+              target="_blank"
+              className={
+                `bg-gradient-to-br from-[#0C6885] to-[#5E0D84] rounded-full p-3 px-5 w-fit hover:cursor-pointer hover:scale-105 transition-all`
+              }
+            >
+              <div className='flex items-center gap-2'>
+                <img src={"https://i.ibb.co/0sHG48s/Group-34.png"} className={"h-7"} />
+                <p
+                  className={
+                    "text-md text-white font-Poppins font-bold"
+                  }
+                >
+                  Hersey Developers Internship
+                </p>
+                <p className={"text-green-500 mb-[2px]"}>NEW</p>
+              </div>
+            </a>
+
           </motion.div>
         </div>
       </div>

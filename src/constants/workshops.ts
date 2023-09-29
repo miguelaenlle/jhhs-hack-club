@@ -11,6 +11,54 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "password_generator_live_2",
+        "image": `https://i.ibb.co/txH0TKQ/passwordgen.png`,
+        "number": 15,
+        "name": "Password Generator Live (v2)",
+        "description": "Resources for the Live Password Generator workshop",
+        "moreDescription": "Resources for the Live Password Generator workshop",
+        "completed": false
+    },
+    {
+        "id": "password_generator",
+        "image": `https://cloud-nu1ftbbxy.vercel.app/0sample-demo.png`,
+        "number": 15,
+        "name": "Password Generator Self-Guided",
+        "description": "Generate passwords for your internet needs with HTML, CSS, and JS!",
+        "moreDescription": "Generate passwords for your internet needs with HTML, CSS, and JS!",
+        customUrl: "https://workshops.hackclub.com/password_generator/",
+        "completed": false
+    },
+    {
+        "id": "aitripplanner",
+        "image": "https://i.ibb.co/tY1H21H/Slide-1aitripplanner.jpg",
+        "number": 15,
+        "name": "AI Trip Planner",
+        "description": "Create a custom trip planner using HTML and OpenAI's GPT API!",
+        "moreDescription": "Using HTML and OpenAI's GPT API, create a custom trip planner! You can do this jam live or self-paced!",
+        "completed": true
+    },
+    {
+        "id": "clubvillage",
+        "image": "https://i.ibb.co/ZK53y41/0image.png",
+        "customUrl": "https://jams.hackclub.com/jam/3d-club-village",
+        "number": 14,
+        "name": "Custom 3D Club Village",
+        "description": "Create a custom 3D club village using Spline! You can do this jam self-paced or live.",
+        "moreDescription": "Using Spline, create a Custom, 3D club village! You can do this jam live or self-paced!",
+        "completed": true
+    },
+    {
+        "id": "personalos",
+        "image": "https://i.ibb.co/b138jyn/hackclub-os.gif",
+        "customUrl": "https://jams.hackclub.com/batch/webOS",
+        "number": 13,
+        "name": "Personal Web-Based Operating System",
+        "description": "Build a custom, web-based operating system! You can do this Jam live or self-paced!",
+        "moreDescription": "Build a custom, web-based operating system. Zero experience needed!",
+        "completed": true
+    },
+    {
         "id": "monkey_live",
         "image": "https://i.ibb.co/zncr2J1/hctype.gif",
         "number": 11,
@@ -198,27 +246,6 @@ export const WORKSHOPS: {
         "description": "Build a website that uses AI to recognize objects using Teachable Machine and HTML!",
         "moreDescription": "Build a website that uses AI to recognize objects using Teachable Machine and HTML!",
         customUrl: "https://workshops.hackclub.com/teachable_machine/",
-        "startDate": "12/2/2022",
-        "completed": true
-    },
-    {
-        "id": "password_generator_live",
-        "image": `https://i.ibb.co/txH0TKQ/passwordgen.png`,
-        "number": 9,
-        "name": "Password Generator Live",
-        "description": "Resources for the Live Password Generator workshop",
-        "moreDescription": "Resources for the Live Password Generator workshop",
-        "startDate": "12/2/2022",
-        "completed": true
-    },
-    {
-        "id": "password_generator",
-        "image": `https://cloud-nu1ftbbxy.vercel.app/0sample-demo.png`,
-        "number": 8,
-        "name": "Password Generator",
-        "description": "Generate passwords for your internet needs with HTML, CSS, and JS!",
-        "moreDescription": "Generate passwords for your internet needs with HTML, CSS, and JS!",
-        customUrl: "https://workshops.hackclub.com/password_generator/",
         "startDate": "12/2/2022",
         "completed": true
     },
