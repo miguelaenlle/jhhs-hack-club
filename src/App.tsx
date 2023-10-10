@@ -7,6 +7,7 @@ import PersonalWebsite from "./components/project/allProjects/PersonalWebsite";
 import Workshop from "./components/workshops/Workshop";
 import Workshops from "./components/workshops/Workshops";
 import Showcase from "./components/showcase/Showcase";
+import Leaderboard from "./components/landing/codeChallenge/Leaderboard";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         />
         <Route path="/megasite" element={<Megasite />} />
         <Route path="/showcase" element={<Showcase />} />
+        <Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
     </div>
   );
