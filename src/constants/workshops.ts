@@ -10,6 +10,46 @@ export const WORKSHOPS: {
     endDate?: string,
     completed: boolean
 }[] = [
+    
+    {
+        "id": "meme_generator_2",
+        "image": `https://i.ibb.co/Kbtnb45/0image.png`,
+        "number": 5,
+        "name": "Meme Generator",
+        "description": "Create your own meme generator with HTML, CSS, and JavaScript!",
+        "moreDescription": "Create your own meme generator with HTML, CSS, and JavaScript!",
+        customUrl: "https://workshops.hackclub.com/meme_generator/",
+        "completed": false
+    },
+    {
+        "id": "meme_generator_live_2",
+        "image": `https://i.ibb.co/mT90SwH/meme-generator.png`,
+        "number": 4,
+        "name": "Meme Generator Live",
+        "description": "Resources for the live Meme Generator workshop!",
+        "moreDescription": "Resources for the live Meme Generator workshop!",
+        "completed": false
+    },
+    {
+        "id": "",
+        "image": "https://externlabs.com/blogs/wp-content/uploads/2023/04/discord-bot-1.jpg",
+        "number": 15,
+        "name": "Discord Bot Live Workshop",
+        "description": "Resources for the Live Discord Bot workshop",
+        "moreDescription": "Resources for the Live Discord Bot workshop",
+        "customUrl": "https://workable-clove-91e.notion.site/Live-Workshop-Resources-a02e16ddd4624595b38b0edb3c421aa0?pvs=4",
+        "completed": true
+    },
+    {
+        "id": "",
+        "image": `https://wallpapers.com/images/hd/discord-gaming-community-vector-8bj6he46773yglph.jpg`,
+        "number": 15,
+        "name": "Discord Bot Self-Guided Workshop",
+        "description": "Build a Custom Discord Bot using Python!",
+        "moreDescription": "Build a Custom Discord Bot using Python!",
+        "customUrl": "https://workable-clove-91e.notion.site/Self-Guided-Workshop-18c703bda79b41619b2411acfe9c6b10?pvs=4",
+        "completed": true
+    },
     {
         "id": "password_generator_live_2",
         "image": `https://i.ibb.co/txH0TKQ/passwordgen.png`,
@@ -17,7 +57,7 @@ export const WORKSHOPS: {
         "name": "Password Generator Live (v2)",
         "description": "Resources for the Live Password Generator workshop",
         "moreDescription": "Resources for the Live Password Generator workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "password_generator",
@@ -27,7 +67,7 @@ export const WORKSHOPS: {
         "description": "Generate passwords for your internet needs with HTML, CSS, and JS!",
         "moreDescription": "Generate passwords for your internet needs with HTML, CSS, and JS!",
         customUrl: "https://workshops.hackclub.com/password_generator/",
-        "completed": false
+        "completed": true
     },
     {
         "id": "aitripplanner",
@@ -36,6 +76,15 @@ export const WORKSHOPS: {
         "name": "AI Trip Planner",
         "description": "Create a custom trip planner using HTML and OpenAI's GPT API!",
         "moreDescription": "Using HTML and OpenAI's GPT API, create a custom trip planner! You can do this jam live or self-paced!",
+        "completed": true
+    },
+    {
+        "id": "discord_bot_live",
+        "image": "https://externlabs.com/blogs/wp-content/uploads/2023/04/discord-bot-1.jpg",
+        "number": 15,
+        "name": "Discord Bot Live (If Notion doesn't work)",
+        "description": "Resources for the Live Discord Bot workshop",
+        "moreDescription": "Resources for the Live Discord Bot workshop",
         "completed": true
     },
     {
