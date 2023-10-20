@@ -26,8 +26,21 @@ const CodeChallenge: React.FC<{}> = (props) => {
                 {"</>"}
               </span>
             </span>
+            <div className="flex flex-col gap-2">
+              <span className="text-bold text-l">
+                Prompt: Build a website or project to help students learn more
+                effectively
+              </span>
+              <span className="text-bold text-sm">
+                Examples: To-Do List, Homework Helper, Schedule Planner
+              </span>
+              <div
+                className="w-full"
+                style={{ border: "1px solid black" }}
+              ></div>
+            </div>
             <div className="flex flex-col text-black gap-12">
-              <div className="flex gap-5 text-xl width-full justify-between">
+              {/* <div className="flex gap-5 text-xl width-full justify-between">
                 <div
                   style={{
                     width: "30px",
@@ -116,13 +129,22 @@ const CodeChallenge: React.FC<{}> = (props) => {
                   5
                 </div>
                 <div>Lorem Ipsum - 1002</div>
+              </div> */}
+              <div className="text-bold text-xl">
+                <span
+                  style={{ color: "orange", fontWeight: "bold" }}
+                  className="text-lg"
+                >
+                  //{" "}
+                </span>
+                Leaderboard Coming Next Meetup!
               </div>
             </div>
             <a
               className="flex gap-2 text-black cursor-pointer"
               href={"/leaderboard"}
             >
-              View Full Leaderboard{" "}
+              View Full Leaderboard and Information{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
