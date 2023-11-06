@@ -7,10 +7,24 @@ import NavbarWrapper from "./intro/Navbar/NavbarWrapper";
 import CodeChallenge from "./codeChallenge/CodeChallenge";
 
 const LandingPage: React.FC<{}> = (props) => {
+
+  const codeChallengeRef = React.useRef<HTMLDivElement>(null);
+
+  const scrollToCodeChallengeSection = () => {
+    codeChallengeRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+
   return (
     <NavbarWrapper>
-      <IntroSection />
-      <CodeChallenge />
+      <IntroSection
+        scrollToCodeChallengeSection={scrollToCodeChallengeSection}
+      />
+      <div ref={codeChallengeRef}>
+        <CodeChallenge />
+      </div>
       <Content />
       <Footer />
     </NavbarWrapper>

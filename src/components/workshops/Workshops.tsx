@@ -31,6 +31,7 @@ const Workshops: React.FC<{}> = (props) => {
                                 customUrl={workshop.customUrl}
                                 startDate={workshop.startDate}
                                 endDate={workshop.endDate}
+                                customBgColor={workshop.bgColor}
                             />
                         )
                     })}

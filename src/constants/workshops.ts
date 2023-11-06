@@ -8,47 +8,75 @@ export const WORKSHOPS: {
     customUrl?: string,
     startDate?: string,
     endDate?: string,
+    bgColor?: string,
     completed: boolean
 }[] = [
     
     {
-        "id": "meme_generator_2",
-        "image": `https://i.ibb.co/Kbtnb45/0image.png`,
-        "number": 5,
-        "name": "Meme Generator",
-        "description": "Create your own meme generator with HTML, CSS, and JavaScript!",
-        "moreDescription": "Create your own meme generator with HTML, CSS, and JavaScript!",
-        customUrl: "https://workshops.hackclub.com/meme_generator/",
-        "completed": false
-    },
-    {
-        "id": "meme_generator_live_2",
-        "image": `https://i.ibb.co/mT90SwH/meme-generator.png`,
-        "number": 4,
-        "name": "Meme Generator Live",
-        "description": "Resources for the live Meme Generator workshop!",
-        "moreDescription": "Resources for the live Meme Generator workshop!",
+        "id": "monkey_live_2",
+        "image": "https://i.ibb.co/zncr2J1/hctype.gif",
+        "number": 11,
+        "name": "HackClubType Live",
+        "description": `Build a custom MonkeyType clone, HackClubType, using HTML, CSS, and JS!`,
+        "moreDescription": `Build a custom MonkeyType clone using HTML, CSS, and JS!`,
         "completed": false
     },
     {
         "id": "",
-        "image": "https://externlabs.com/blogs/wp-content/uploads/2023/04/discord-bot-1.jpg",
-        "number": 15,
-        "name": "Discord Bot Live Workshop",
-        "description": "Resources for the Live Discord Bot workshop",
-        "moreDescription": "Resources for the Live Discord Bot workshop",
-        "customUrl": "https://workable-clove-91e.notion.site/Live-Workshop-Resources-a02e16ddd4624595b38b0edb3c421aa0?pvs=4",
+        "image": "https://cloud-gny03pu07.vercel.app/0javascript_typing_test_cover.png",
+        "number": 11,
+        "customUrl": "https://workshops.hackclub.com/javascript_typing_test/",
+        "name": "Typing Test Self-Guided",
+        "description": "Build a Typing Test with HTML, CSS, and JS!",
+        "moreDescription": "Build a Typing Test with HTML, CSS, and JS!",
+        "completed": false
+    },
+    {
+        "id": "particle_physics_live_2",
+        "image": "https://i.ibb.co/jGG6sLY/satisfying-1.gif",
+        "number": 11,
+        "name": "Particle Physics Live",
+        "description": "Resources for the live particle physics workshop!",
+        "moreDescription": "Build a custom particle physics simulation using HTML and P5.JS!",
         "completed": true
     },
     {
         "id": "",
-        "image": `https://wallpapers.com/images/hd/discord-gaming-community-vector-8bj6he46773yglph.jpg`,
-        "number": 15,
-        "name": "Discord Bot Self-Guided Workshop",
-        "description": "Build a Custom Discord Bot using Python!",
-        "moreDescription": "Build a Custom Discord Bot using Python!",
-        "customUrl": "https://workable-clove-91e.notion.site/Self-Guided-Workshop-18c703bda79b41619b2411acfe9c6b10?pvs=4",
+        "image": "https://i.ibb.co/TWyYVmy/particlephysics.gif",
+        "number": 11,
+        "customUrl": "https://workshops.hackclub.com/particle_physics/",
+        "name": "Particle Physics Self-Guided",
+        "description": "Build a particle physics simulation website using HTML and JS!",
+        "moreDescription": "Build a particle physics simulation website using HTML and JS!",
         "completed": true
+    },
+    {
+        "id": "soundboard_live_2",
+        "image": "https://i.ibb.co/VQs95sc/spooky.gif",
+        "number": 17,
+        "name": "Spooky Sound Board 🎃",
+        "description": "Build a spooktacular soundboard in preparation for 10/31 with HTML, CSS, and JS!",
+        "moreDescription": "Build a spooktacular soundboard in preparation for 10/31 with HTML, CSS, and JS!",
+        "completed": true
+    },
+    {
+        "id": "tunes_on_js_live",
+        "image": `https://i.ibb.co/QXLY6bv/piano-web.gif`,
+        "number": 16,
+        "name": "Tunes on JS Live",
+        "description": "Resources for the Live Tunes on JS workshop",
+        "moreDescription": "Resources for the Live Tunes on JS workshop",
+        "completed": true
+    },
+    {
+        "id": "tunes_on_js",
+        "image": `https://i.ibb.co/sqYD7Rh/pianos-on-web-2.gif`,
+        "number": 16,
+        "name": "Tunes on JS Self-Guided",
+        "description": "Resources for the Tunes on JS self-guided workshop",
+        "moreDescription": "Resources for the Tunes on JS self-guided workshop",
+        "completed": true,
+        customUrl: "https://workshops.hackclub.com/tunes/"
     },
     {
         "id": "password_generator_live_2",
