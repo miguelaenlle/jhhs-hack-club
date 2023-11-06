@@ -107,6 +107,15 @@ export const WORKSHOPS: {
         "completed": true
     },
     {
+        "id": "discord_bot_live",
+        "image": "https://externlabs.com/blogs/wp-content/uploads/2023/04/discord-bot-1.jpg",
+        "number": 15,
+        "name": "Discord Bot Live (If Notion doesn't work)",
+        "description": "Resources for the Live Discord Bot workshop",
+        "moreDescription": "Resources for the Live Discord Bot workshop",
+        "completed": true
+    },
+    {
         "id": "clubvillage",
         "image": "https://i.ibb.co/ZK53y41/0image.png",
         "customUrl": "https://jams.hackclub.com/jam/3d-club-village",
