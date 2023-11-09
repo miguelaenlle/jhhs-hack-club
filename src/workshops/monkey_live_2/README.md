@@ -23,7 +23,9 @@ Once you clone the starter code, your screen should look like this:
 
 ## Useful Resources 
 Bongocat Typing: [https://media.tenor.com/fYg91qBpDdgAAAAi/bongo-cat-transparent.gif](https://media.tenor.com/fYg91qBpDdgAAAAi/bongo-cat-transparent.gif)<br/>
-Banana Emoji: 🍌
+Banana Emoji: `🍌`<br/>
+Sample Text: <br/>
+```Hello there! I hope your day is going very well. Thanks for trying out my typing test. Did you know that this project was actually made for Hack Club?```<br/>
 <br>
 <br>
 <br>
