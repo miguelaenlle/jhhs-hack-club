@@ -7,7 +7,8 @@ const ShowcaseItem: React.FC<{
     backgroundColor: string,
     link: string,
     author: string,
-    image?: string
+    image?: string,
+    scWinner?: boolean
 }> = (props) => {
 
     const redirect = () => {
@@ -26,6 +27,9 @@ const ShowcaseItem: React.FC<{
             </div>
             <div className={"rounded-xl p-3 pb-4"}>
                 <p className={"text-white font-bold font-Poppins text-xl"}>{props.title}</p>
+                {props.scWinner && (
+                    <p className={"text-zinc-400 font-Poppins mb-3"}>Code Challenge 1 Winning Project 🥇</p>
+                )}
                 <p className={"text-white font-Poppins text-emerald-100"}>By {props.author}</p>
             </div>
         </div>

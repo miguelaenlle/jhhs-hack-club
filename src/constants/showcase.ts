@@ -1,3 +1,33 @@
+export const showcase2: {
+  author: string;
+  title: string;
+  "color-text": string;
+  backgroundColor: string;
+  link: string;
+  image?: string;
+  scWinner?: boolean;
+}[] = [
+    {
+      'author': 'Eric Wetzel',
+      'title': 'Make Your Own Flashcards',
+      'color-text': 'beige',
+      'backgroundColor': 'bg-gray-800',
+      'link': 'https://flashcardappcodechallenge--ericwetzel200.repl.co/',
+      "image": "https://i.ibb.co/bHv9tgp/image.png",
+      scWinner: true
+    },
+    {
+      'author': 'Keenan Nguyen',
+      'title': 'Thousand Questions',
+      'color-text': 'beige',
+      'backgroundColor': 'bg-gray-800',
+      'link': 'https://github.com/KeenanOH/thousand-questions/tree/master',
+      "image": "https://i.ibb.co/mRZL9J0/image.png",
+      scWinner: true
+    }
+
+  ]
+
 export const showcase: {
   author: string;
   title: string;
@@ -29,7 +59,7 @@ export const showcase: {
       'link': 'https://www.youtube.com/shorts/kafx_gAI4_I',
       "image": "https://i.ibb.co/yqSSQQS/thum.png"
     },
-    
+
     {
       'author': 'Paul Brown',
       'title': 'Meme generator (real)',
