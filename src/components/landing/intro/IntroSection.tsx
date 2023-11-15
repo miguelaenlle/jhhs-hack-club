@@ -35,7 +35,7 @@ const IntroSection: React.FC<{
           >
             <Header />
             <motion.div
-              initial={{ opacity: 0, y: 20, scale: 0.8 }}
+              initial={{ opacity: 0, y: 20, scale: 1.2 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: 1.5, duration: 0.5 }}
               className={"flex space-y-3 flex-col items-center justify-center"}
