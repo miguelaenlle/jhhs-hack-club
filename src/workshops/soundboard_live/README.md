@@ -14,7 +14,7 @@ _What the final product looks like_
 To get started:
 
 1. Create an account on <a href="https://repl.it" target="_blank">repl.it</a>, our code editor
-2. Clone the starter code <a href="https://replit.com/@342fh823fh8/Sound-Board-Starter-Code" target="_blank">here</a>
+2. Clone the starter code <a href="https://replit.com/@MA157/Spooky-Soundboard-Starter-Code?v=1" target="_blank">here</a>
 
 Once you clone the starter code, your screen should look like this:
 

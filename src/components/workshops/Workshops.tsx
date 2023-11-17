@@ -14,11 +14,11 @@ const Workshops: React.FC<{}> = (props) => {
     });
 
     return (
-        <div className={"bg-gradient-to-b from-neutral-800 to-neutral-900 p-5 min-h-screen"}>
+        <div className={"bg-gradient-to-b from-neutral-800 to-neutral-900 min-h-screen"}>
             <WorkshopsHeader />
-            <div className={"max-w-5xl mx-auto my-5 mt-10 px-0 md:px-10"}>
-                <h3 className={"text-xl text-orange-500 font-bold font-Poppins"}>What we're doing now 🎯</h3>
-                <div className={" flex flex-col gap-5 mt-5"}>
+            <div className={"max-w-5xl mx-auto my-5 px-5 mt-0"}>
+                <h3 className={"text-xl text-orange-500 font-bold"}>What we're doing now 🎯</h3>
+                <div className={"flex flex-col gap-5 mt-5"}>
                     {currentWorkshops.map((workshop, index) => {
                         return (
                             <WorkshopItem
@@ -31,12 +31,13 @@ const Workshops: React.FC<{}> = (props) => {
                                 customUrl={workshop.customUrl}
                                 startDate={workshop.startDate}
                                 endDate={workshop.endDate}
+                                customBgColor={workshop.bgColor}
                             />
                         )
                     })}
                 </div>
             </div>
-            <div className={"max-w-5xl mx-auto my-5 mt-20 px-0 md:px-10"}>
+            <div className={"max-w-5xl mx-auto my-5 mt-20 px-5"}>
                 <h3 className={"text-xl text-green-500 font-bold font-Poppins"}>Finished workshops ✅</h3>
                 <div className={"mt-5 space-y-5"}>
                     {completedWorkshops.map((workshop, index) => {

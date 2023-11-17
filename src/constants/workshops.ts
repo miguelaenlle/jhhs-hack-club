@@ -8,8 +8,95 @@ export const WORKSHOPS: {
     customUrl?: string,
     startDate?: string,
     endDate?: string,
+    bgColor?: string,
     completed: boolean
 }[] = [
+    {
+        "id": "weather_app_live_2",
+        "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
+        "number": 11,
+        "name": "Weather App Live",
+        "description": "Resources for the Weather App workshop",
+        "moreDescription": "Resources for the Weather App workshop",
+        "completed": false
+    },
+    {
+        "id": "weather_app",
+        "image": `https://cloud-fw0yxvsf2.vercel.app/0screenshot_from_2020-10-23_19-26-13.png`,
+        "number": 10,
+        "name": "Weather App",
+        "description": "Build a Weather App using HTML, CSS, and JS!",
+        "moreDescription": "Build a Weather App using HTML, CSS, and JS!",
+        customUrl: "https://workshops.hackclub.com/weather_app/",
+        "startDate": "12/2/2022",
+        "completed": false
+    },
+    {
+        "id": "monkey_live_2",
+        "image": "https://i.ibb.co/zncr2J1/hctype.gif",
+        "number": 11,
+        "name": "HackClubType Live",
+        "description": `Build a custom MonkeyType clone, HackClubType, using HTML, CSS, and JS!`,
+        "moreDescription": `Build a custom MonkeyType clone using HTML, CSS, and JS!`,
+        "completed": true
+    },
+    {
+        "id": "",
+        "image": "https://cloud-gny03pu07.vercel.app/0javascript_typing_test_cover.png",
+        "number": 11,
+        "customUrl": "https://workshops.hackclub.com/javascript_typing_test/",
+        "name": "Typing Test Self-Guided",
+        "description": "Build a Typing Test with HTML, CSS, and JS!",
+        "moreDescription": "Build a Typing Test with HTML, CSS, and JS!",
+        "completed": true
+    },
+    {
+        "id": "particle_physics_live_2",
+        "image": "https://i.ibb.co/jGG6sLY/satisfying-1.gif",
+        "number": 11,
+        "name": "Particle Physics Live",
+        "description": "Resources for the live particle physics workshop!",
+        "moreDescription": "Build a custom particle physics simulation using HTML and P5.JS!",
+        "completed": true
+    },
+    {
+        "id": "",
+        "image": "https://i.ibb.co/TWyYVmy/particlephysics.gif",
+        "number": 11,
+        "customUrl": "https://workshops.hackclub.com/particle_physics/",
+        "name": "Particle Physics Self-Guided",
+        "description": "Build a particle physics simulation website using HTML and JS!",
+        "moreDescription": "Build a particle physics simulation website using HTML and JS!",
+        "completed": true
+    },
+    {
+        "id": "soundboard_live_2",
+        "image": "https://i.ibb.co/VQs95sc/spooky.gif",
+        "number": 17,
+        "name": "Spooky Sound Board 🎃",
+        "description": "Build a spooktacular soundboard in preparation for 10/31 with HTML, CSS, and JS!",
+        "moreDescription": "Build a spooktacular soundboard in preparation for 10/31 with HTML, CSS, and JS!",
+        "completed": true
+    },
+    {
+        "id": "tunes_on_js_live",
+        "image": `https://i.ibb.co/QXLY6bv/piano-web.gif`,
+        "number": 16,
+        "name": "Tunes on JS Live",
+        "description": "Resources for the Live Tunes on JS workshop",
+        "moreDescription": "Resources for the Live Tunes on JS workshop",
+        "completed": true
+    },
+    {
+        "id": "tunes_on_js",
+        "image": `https://i.ibb.co/sqYD7Rh/pianos-on-web-2.gif`,
+        "number": 16,
+        "name": "Tunes on JS Self-Guided",
+        "description": "Resources for the Tunes on JS self-guided workshop",
+        "moreDescription": "Resources for the Tunes on JS self-guided workshop",
+        "completed": true,
+        customUrl: "https://workshops.hackclub.com/tunes/"
+    },
     {
         "id": "password_generator_live_2",
         "image": `https://i.ibb.co/txH0TKQ/passwordgen.png`,
@@ -17,7 +104,7 @@ export const WORKSHOPS: {
         "name": "Password Generator Live (v2)",
         "description": "Resources for the Live Password Generator workshop",
         "moreDescription": "Resources for the Live Password Generator workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "password_generator",
@@ -27,7 +114,7 @@ export const WORKSHOPS: {
         "description": "Generate passwords for your internet needs with HTML, CSS, and JS!",
         "moreDescription": "Generate passwords for your internet needs with HTML, CSS, and JS!",
         customUrl: "https://workshops.hackclub.com/password_generator/",
-        "completed": false
+        "completed": true
     },
     {
         "id": "aitripplanner",
@@ -36,6 +123,15 @@ export const WORKSHOPS: {
         "name": "AI Trip Planner",
         "description": "Create a custom trip planner using HTML and OpenAI's GPT API!",
         "moreDescription": "Using HTML and OpenAI's GPT API, create a custom trip planner! You can do this jam live or self-paced!",
+        "completed": true
+    },
+    {
+        "id": "discord_bot_live",
+        "image": "https://externlabs.com/blogs/wp-content/uploads/2023/04/discord-bot-1.jpg",
+        "number": 15,
+        "name": "Discord Bot Live (If Notion doesn't work)",
+        "description": "Resources for the Live Discord Bot workshop",
+        "moreDescription": "Resources for the Live Discord Bot workshop",
         "completed": true
     },
     {
