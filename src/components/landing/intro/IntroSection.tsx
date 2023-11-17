@@ -35,7 +35,7 @@ const IntroSection: React.FC<{
           >
             <Header />
             <motion.div
-              initial={{ opacity: 0, y: 20, scale: 1.2 }}
+              initial={{ opacity: 0, y: -20, scale: 1 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: 1.5, duration: 0.5 }}
               className={"flex space-y-3 flex-col items-center justify-center"}
@@ -46,14 +46,15 @@ const IntroSection: React.FC<{
                 text={"JOIN THE DISCORD"}
                 startColor={"from-orange-500"}
                 endColor={"to-red-500"}
-                fullRedirect={true}
+                fullRedirect
               />
-
               <GradientButton
                 link={"/workshops"}
                 text={"GO TO WORKSHOPS"}
                 startColor={"from-cyan-500"}
                 endColor={"to-cyan-700"}
+                fullRedirect
+                preventOpenNewPage
               />
               <div onClick={props.scrollToCodeChallengeSection} className="flex font-bold text-white items-center flex justify-center gap-1 cursor-pointer">
                 <div>Code Challenge</div>

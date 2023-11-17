@@ -11,7 +11,26 @@ export const WORKSHOPS: {
     bgColor?: string,
     completed: boolean
 }[] = [
-    
+    {
+        "id": "weather_app_live_2",
+        "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
+        "number": 11,
+        "name": "Weather App Live",
+        "description": "Resources for the Weather App workshop",
+        "moreDescription": "Resources for the Weather App workshop",
+        "completed": false
+    },
+    {
+        "id": "weather_app",
+        "image": `https://cloud-fw0yxvsf2.vercel.app/0screenshot_from_2020-10-23_19-26-13.png`,
+        "number": 10,
+        "name": "Weather App",
+        "description": "Build a Weather App using HTML, CSS, and JS!",
+        "moreDescription": "Build a Weather App using HTML, CSS, and JS!",
+        customUrl: "https://workshops.hackclub.com/weather_app/",
+        "startDate": "12/2/2022",
+        "completed": false
+    },
     {
         "id": "monkey_live_2",
         "image": "https://i.ibb.co/zncr2J1/hctype.gif",
@@ -19,7 +38,7 @@ export const WORKSHOPS: {
         "name": "HackClubType Live",
         "description": `Build a custom MonkeyType clone, HackClubType, using HTML, CSS, and JS!`,
         "moreDescription": `Build a custom MonkeyType clone using HTML, CSS, and JS!`,
-        "completed": false
+        "completed": true
     },
     {
         "id": "",
@@ -29,7 +48,7 @@ export const WORKSHOPS: {
         "name": "Typing Test Self-Guided",
         "description": "Build a Typing Test with HTML, CSS, and JS!",
         "moreDescription": "Build a Typing Test with HTML, CSS, and JS!",
-        "completed": false
+        "completed": true
     },
     {
         "id": "particle_physics_live_2",
