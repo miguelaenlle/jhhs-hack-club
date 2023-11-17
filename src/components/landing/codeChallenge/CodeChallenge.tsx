@@ -27,20 +27,17 @@ const CodeChallenge: React.FC<{}> = (props) => {
               </span>
             </span>
             <div className="flex flex-col gap-2">
-              <span className="text-bold text-l">
-                Prompt: Build a website or project to help students learn more
-                effectively
-              </span>
-              <span className="text-bold text-sm">
+              <span className="text-bold text-l">Prompt: Coming soon!</span>
+              {/* <span className="text-bold text-sm">
                 Examples: To-Do List, Homework Helper, Schedule Planner
-              </span>
+              </span> */}
               <div
                 className="w-full"
                 style={{ border: "1px solid black" }}
               ></div>
             </div>
             <div className="flex flex-col text-black gap-12">
-              {/* <div className="flex gap-5 text-xl width-full justify-between">
+              <div className="flex gap-5 text-xl width-full justify-between">
                 <div
                   style={{
                     width: "30px",
@@ -52,7 +49,7 @@ const CodeChallenge: React.FC<{}> = (props) => {
                 >
                   1
                 </div>
-                <div>Lorem Ipsum - 5000</div>
+                <div>Angel Bitsov</div>
               </div>
 
               <div
@@ -70,7 +67,7 @@ const CodeChallenge: React.FC<{}> = (props) => {
                 >
                   2
                 </div>
-                <div>Lorem Ipsum - 4500</div>
+                <div>Keenan OH</div>
               </div>
 
               <div
@@ -90,54 +87,7 @@ const CodeChallenge: React.FC<{}> = (props) => {
                 >
                   3
                 </div>
-                <div>Lorem Ipsum - 3000</div>
-              </div>
-              <div
-                className="flex gap-5 text-xl width-full justify-between"
-                style={{
-                  opacity: "40%",
-                }}
-              >
-                <div
-                  style={{
-                    width: "30px",
-                    height: "30px",
-                    borderRadius: "50%",
-                    color: "black",
-                  }}
-                  className="flex items-center justify-center font-bold"
-                >
-                  4
-                </div>
-                <div>Lorem Ipsum - 1005</div>
-              </div>
-              <div
-                className="flex gap-5 text-xl width-full justify-between"
-                style={{
-                  opacity: "30%",
-                }}
-              >
-                <div
-                  style={{
-                    width: "30px",
-                    height: "30px",
-                    borderRadius: "50%",
-                    color: "black",
-                  }}
-                  className="flex items-center justify-center font-bold"
-                >
-                  5
-                </div>
-                <div>Lorem Ipsum - 1002</div>
-              </div> */}
-              <div className="text-bold text-xl">
-                <span
-                  style={{ color: "orange", fontWeight: "bold" }}
-                  className="text-lg"
-                >
-                  //{" "}
-                </span>
-                Leaderboard Coming Next Meetup!
+                <div>Eric Wetzel</div>
               </div>
             </div>
             <a
