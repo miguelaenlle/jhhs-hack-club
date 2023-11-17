@@ -6,13 +6,18 @@ const GradientButton: React.FC<{
     startColor: string;
     endColor: string;
     fullRedirect?: boolean;
+    preventOpenNewPage?: boolean;
 }> = (props) => {
 
     const navigate = useNavigate();
 
     const handleClick = () => {
         if (props.fullRedirect) {
-            window.open(props.link, "_blank");
+            if (props.preventOpenNewPage) {
+                window.parent.location = props.link;
+            } else {
+                window.open(props.link, "_blank");
+            }
         } else {
             navigate(props.link)
         }
