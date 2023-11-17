@@ -44,11 +44,8 @@ const Leaderboard: React.FC<{}> = (props) => {
         <br></br>
         <div className="text-white text-l space-y-3">
           <h2>
-            <span className="font-bold">Current Prompt:</span> Build a website
-            or project to help students learn more effectively
+            <span className="font-bold">Current Prompt:</span> Coming Soon
           </h2>
-          <h2>
-            <span className="font-bold">Examples:</span> To-Do List, Homework
             Helper, Schedule Planner, Website Teaching a Topic, etc.
           </h2>
           <h2>
@@ -60,48 +57,67 @@ const Leaderboard: React.FC<{}> = (props) => {
           className="flex flex-col gap-5 p-5"
           style={{ backgroundColor: "white", borderRadius: "5px" }}
         >
-          <div className="text-bold text-xl">
-            <span
-              style={{ color: "orange", fontWeight: "bold" }}
-              className="text-lg"
-            >
-              //{" "}
-            </span>
-            Leaderboard Coming Soon!
-          </div>
-
-          {/* <div className="flex flex-col width-full text-black bg-white justify-evenly p-5 gap-5">
+          <div className="flex flex-col width-full text-black bg-white justify-evenly p-5 gap-5">
             <span className="flex justify-between">
               <div>
                 <h2 className="text-bold text-2xl">1</h2>
                 <br></br>
-                <h2 className="text-xl">Project Name</h2>
+                <h2 className="text-xl">TODO List</h2>
               </div>
-              <h2 className="text-xl">Lorem Ipsum - 5000</h2>
+              <h2 className="text-xl">Angel Bitsov</h2>
             </span>
             <div className="flex gap-2 overflow-auto">
               <img
-                src="https://images.freeimages.com/image/previews/083/globemapworld-5690037.jpg"
+                src="https://media.discordapp.net/attachments/1063658922478682163/1172002769410994197/image4.png?ex=6567f622&is=65558122&hm=900393961444977212d25abd7bea8ed4913d98faa65715672b167afbc7e88b77&=&width=1444&height=1004"
                 alt="image"
                 style={{ width: "30%", height: "200px", objectFit: "cover" }}
               />
               <img
-                src="https://images.freeimages.com/image/previews/083/globemapworld-5690037.jpg"
-                alt="image"
-                style={{ width: "30%", height: "200px", objectFit: "cover" }}
-              />
-              <img
-                src="https://images.freeimages.com/image/previews/083/globemapworld-5690037.jpg"
-                alt="image"
-                style={{ width: "30%", height: "200px", objectFit: "cover" }}
-              />
-              <img
-                src="https://images.freeimages.com/image/previews/083/globemapworld-5690037.jpg"
+                src="https://media.discordapp.net/attachments/1063658922478682163/1172002769708785765/image0.png?ex=6567f623&is=65558123&hm=33eb3c25d9942743a457c7e39b1ce7c9955b90a188e7770dec7bbfacf3bf9cf4&=&width=1444&height=1004"
                 alt="image"
                 style={{ width: "30%", height: "200px", objectFit: "cover" }}
               />
             </div>
-          </div> */}
+          </div>
+          <div className="flex flex-col width-full text-black bg-white justify-evenly p-5 gap-5">
+            <span className="flex justify-between">
+              <div>
+                <h2 className="text-bold text-2xl">2</h2>
+                <br></br>
+                <h2 className="text-xl">1000 Questions</h2>
+              </div>
+              <h2 className="text-xl">Keenan OH</h2>
+            </span>
+            <div className="flex gap-2 overflow-auto">
+              <img
+                src="https://user-images.githubusercontent.com/86394469/277190304-2824087c-9ca3-4e09-b848-165c70988dcb.png"
+                alt="image"
+                style={{ width: "30%", height: "200px", objectFit: "cover" }}
+              />
+            </div>
+          </div>
+          <div className="flex flex-col width-full text-black bg-white justify-evenly p-5 gap-5">
+            <span className="flex justify-between">
+              <div>
+                <h2 className="text-bold text-2xl">3</h2>
+                <br></br>
+                <h2 className="text-xl">Make Your Own Flashcards</h2>
+              </div>
+              <h2 className="text-xl">Eric Wetzel</h2>
+            </span>
+            <div className="flex gap-2 overflow-auto">
+              <img
+                src="https://media.discordapp.net/attachments/1063658922478682163/1174464609088974888/image.png?ex=6567b067&is=65553b67&hm=86c6baae711ff243b5a65ec9eb2b66548b07106487740af97f2b5c65e4e96cf9&=&width=1954&height=1004"
+                alt="image"
+                style={{ width: "30%", height: "200px", objectFit: "cover" }}
+              />
+              <img
+                src="https://media.discordapp.net/attachments/1063658922478682163/1174464609340625097/image.png?ex=6567b067&is=65553b67&hm=96d6ccac7c523fc7f087211eea434f1dccb4d8b763183ba932fb0b94c334de26&=&width=1232&height=1004"
+                alt="image"
+                style={{ width: "30%", height: "200px", objectFit: "cover" }}
+              />
+            </div>
+          </div>
         </div>
         <br></br>
         <div className="text-white flex flex-col gap-3">
