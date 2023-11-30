@@ -42,16 +42,12 @@ const CodeChallenge: React.FC<{}> = (props) => {
 
               <div
                 className="flex gap-5 text-xl width-full justify-start"
-                style={{ opacity: "60%" }}
               >
                 <div>Keenan Nguyen</div>
               </div>
 
               <div
                 className="flex gap-5 text-xl width-full justify-start"
-                style={{
-                  opacity: "50%",
-                }}
               >
                 <div>Eric Wetzel</div>
               </div>

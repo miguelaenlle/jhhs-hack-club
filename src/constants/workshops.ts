@@ -12,13 +12,32 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "konami_code",
+        "image": "https://i.ibb.co/9bjzkyT/wide-konami.gif",
+        "number": 11,
+        "name": "Konami Code",
+        "description": "Resources for the Konami Code live workshop",
+        "moreDescription": "Resources for the Konami Code live workshop",
+        "completed": false
+    },
+    {
+        "id": "konami_code",
+        "image": "https://i.ibb.co/9bjzkyT/wide-konami.gif",
+        "number": 11,
+        "name": "Konami Code Self-Guided",
+        "description": "Konami Code Self-Guided workshop. Prior HTML/CSS experience recommended.",
+        "customUrl": "https://workshops.hackclub.com/konami_code/",
+        "moreDescription": "",
+        "completed": false
+    },
+    {
         "id": "weather_app_live_2",
         "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
         "number": 11,
         "name": "Weather App Live",
         "description": "Resources for the Weather App workshop",
         "moreDescription": "Resources for the Weather App workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "weather_app",
@@ -29,7 +48,7 @@ export const WORKSHOPS: {
         "moreDescription": "Build a Weather App using HTML, CSS, and JS!",
         customUrl: "https://workshops.hackclub.com/weather_app/",
         "startDate": "12/2/2022",
-        "completed": false
+        "completed": true
     },
     {
         "id": "monkey_live_2",

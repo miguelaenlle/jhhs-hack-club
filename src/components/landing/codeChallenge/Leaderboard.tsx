@@ -117,95 +117,67 @@ const Leaderboard: React.FC<{}> = (props) => {
           </div>
         </div>
         <br></br>
-        <div className="text-white font-bold flex flex-col gap-3">
-          <h2 className="text-xl">Coding Resources</h2>
-
-          <span>
-            <div className="flex gap-2">
-              Learn HTML/CSS:{" "}
-              <div
-                title="HTML: HQ of the website. It gives you the structure. All the
-              files should like to the HTML file."
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <a
-              style={{ color: "orange" }}
-              href="https://www.codecademy.com/catalog/language/html-css"
-            >
-              Click Here
-            </a>
-          </span>
-          <span>
-            <div className="flex gap-2">
-              Learn JavaScript:{" "}
-              <div title="JavaScript: Think of this as the functionality of a website. For example, you code the button in HTML and tell the button what to do in JavaScript.">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <a
-              style={{ color: "orange" }}
-              href="https://www.codecademy.com/learn/introduction-to-javascript"
-            >
-              Click Here
-            </a>
-          </span>
-          <span>
-            <div className="flex gap-2">
-              Learn PHP:{" "}
-              <div title="PHP: Think of this as the functionality of a website. For example, you code the button in HTML and tell the button what to do in PHP. Like JavaScript but a different language.">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <a
-              style={{ color: "orange" }}
-              href="https://www.codecademy.com/learn/paths/php-skill"
-            >
-              Click Here
-            </a>
-          </span>
+        
+        <br></br>
+        <div className="text-white flex flex-col gap-3">
+          <h2 className="text-xl font-bold border-b-2 pb-2 border-zinc-600 mb-2">Project Inspiration</h2>
+          <p className="text-l">To-Do List</p>
+          <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--CL1BDARo--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/o96lsrld21tk232kidu4.png" className={"max-w-2xl w-full"} />
+          <br />
+          <p className="text-l">Website teaching a topic (HTML Tags)</p>
+          <img src="https://i.ibb.co/8r6kGvd/Untitled-3.png" className={"max-w-2xl w-full"} />
+          <a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/a/quick-tip-html-tags" target="_blank" className="text-blue-500">Quick tip: HTML Tags (Khan Academy)</a>
+          <br />
+          <p className="text-l">Schedule Planner</p>
+          <img src="https://neatandtidydesign.com/wp-content/uploads/2021/01/Daily-Planner_Sunday__Letter1.jpg" className={"max-w-2xl w-full"}/>
+          <br />
           <br></br>
-        </div>{" "}
+        </div>
+
+        <div className="text-white flex flex-col gap-3">
+          <h2 className="text-xl font-bold w-full border-b-2 pb-2 border-zinc-600 mb-2">How to complete the Code Challenge:</h2>
+          <p className="text-l">Ensure your project meets the following requirements:</p>
+          <ul className="space-y-3 mt-5">
+            <li>• 🔨 Functions well enough that the site works for a demo <i className={"text-gray-400"}>(Generally works; some bugs are OK)</i></li>
+            <li>• 🎨 Shows creativity through a theme <i className={"text-gray-400"}>(Has some colors; not just default HTML)</i></li>
+            <li>• 🎯 Has a target audience <i className={"text-gray-400"}>(1st graders, freshmen, seniors, JHHS students, etc.)</i></li>
+            <li className={"pb-1"}>• 📈 Has a clear goal that helps the target audience <i className={"text-gray-400"}>(to help track homework, to teach math, etc.)</i></li>
+          </ul>
+          <br></br>
+        </div>        
+        <div className="text-white flex flex-col gap-3">
+          <h2 className="text-xl font-bold border-b-2 pb-2 border-zinc-600 mb-2">Completion Prizes</h2>
+          <p className="text-l">All members who complete the Code Challenge will receive:</p>
+          <ul className="space-y-3 mt-5">
+            <li>• 👕 The Hack Club T-Shirt</li>
+            <li>• 💯 Exclusive Hack Club Stickers</li>
+            <li>• 💬 The Code Challenge Completionist Discord Role</li>
+            <li>• 🌐 Featured spot on the Hack Club website!</li>
+          </ul>
+
+          <br></br>
+        </div>
+        <div className="text-white flex flex-col gap-3">
+          <h2 className="text-xl border-b-2 pb-2 border-zinc-600 mb-2 font-bold">How to get started</h2>
+          <p className="text-l">• To get started, we recommend first sketching out your project idea on Notability or paper.</p>
+          <p className="text-l">• Afterward, we recommend using <a href="https://replit.com" className={"text-blue-500"} target="_blank">replit.com</a> to build your website.</p>
+          <p className="text-l text-zinc-300 ml-2">You may also use tools outside of Replit (e.x. Xcode, VSCode) and other frameworks/languages (Swift, React, etc).</p>
+          <p className="text-l">• While coding, if you're wondering how to build something, Google it or call a workshops volunteer over!</p>
+          <p className="text-l">• Also, check out our resources below for additional support.</p>
+          <br/>
+
+          
+          <h2 className="text-xl border-b-2 pb-2 border-zinc-600 mb-2 font-bold">Great resources</h2>
+          <p className="text-l">• MDN's Getting Started with the Web Tutorial is a great refresher on HTML and CSS</p>
+          <p className="text-l ml-5">• Note: We recommend using Replit's <a href="https://repl.it/languages/html" className={"text-blue-500"} target="_blank">HTML/CSS/JS starter project</a> while following this multi-part tutorial.</p>
+          <p className="text-l ml-5">• Part 1 (start here): <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" className={"text-blue-500"} target="_blank">HTML Basics</a></p>
+          <p className="text-l ml-5">• Part 2: <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" className={"text-blue-500"} target="_blank">CSS Basics</a></p>
+          <p className="text-l ml-5">• Part 3: <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" className={"text-blue-500"} target="_blank">JavaScript Basics</a></p>
+          <p className="text-l">• HTML Tag Cheat Sheet: <a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet" className={"text-blue-500"} target="_blank">Link</a></p>
+          <p className="text-l">• Here are common CSS style properties: <a href="http://web.simmons.edu/~grabiner/comm244/weekthree/css-basic-properties.html" className={"text-blue-500"} target="_blank">Link</a></p>
+          <p className="text-l">• Common CSS font list: <a href="https://www.w3.org/Style/Examples/007/fonts.en.html" className={"text-blue-500"} target="_blank">Link</a></p>
+          
+        </div>
       </div>
     </div>
   );
