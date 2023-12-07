@@ -12,27 +12,46 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
-        "id": "konami_code",
-        "image": "https://i.ibb.co/9bjzkyT/wide-konami.gif",
+        "id": "web_scraping_live",
+        "image": "/images/scraped-items.png",
         "number": 11,
-        "name": "Konami Code",
-        "description": "Resources for the Konami Code live workshop",
-        "moreDescription": "Resources for the Konami Code live workshop",
+        "name": "Web Scraping with Python",
+        "description": "Resources for the Web Scraping with Python live workshop",
+        "moreDescription": "Resources for the Web Scraping with Python live workshop",
         "completed": false
     },
     {
         "id": "konami_code",
-        "image": "https://i.ibb.co/9bjzkyT/wide-konami.gif",
+        "image": "https://cloud-p5pdve0kf.vercel.app/1inspect_element.png",
+        "number": 11,
+        "name": "Web Scraping with Python Self-Guided",
+        "description": "Web Scraping with Python Self-Guided workshop. Prior coding experience recommended.",
+        "customUrl": "https://workshops.hackclub.com/read_the_internet/",
+        "moreDescription": "",
+        "completed": false
+    },
+    {
+        "id": "konami_code",
+        "image": "/images/wide-konami.gif",
+        "number": 11,
+        "name": "Konami Code",
+        "description": "Resources for the Konami Code live workshop",
+        "moreDescription": "Resources for the Konami Code live workshop",
+        "completed": true
+    },
+    {
+        "id": "konami_code",
+        "image": "/images/wide-konami.gif",
         "number": 11,
         "name": "Konami Code Self-Guided",
         "description": "Konami Code Self-Guided workshop. Prior HTML/CSS experience recommended.",
         "customUrl": "https://workshops.hackclub.com/konami_code/",
         "moreDescription": "",
-        "completed": false
+        "completed": true
     },
     {
         "id": "weather_app_live_2",
-        "image": "https://i.ibb.co/jkvgwgY/hacker-weather.png",
+        "image": `https://cloud-fw0yxvsf2.vercel.app/0screenshot_from_2020-10-23_19-26-13.png`,
         "number": 11,
         "name": "Weather App Live",
         "description": "Resources for the Weather App workshop",

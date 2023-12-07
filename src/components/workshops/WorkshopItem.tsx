@@ -35,7 +35,7 @@ const WorkshopItem: React.FC<{
 
     return (
         <div onClick={redirect} className={workshopClassName}>
-            <img className={"object-cover w-full h-64 rounded-xl opacity-80"} alt={`${props.title}`} src={props.image} />
+            <img className={"object-cover w-full h-64 rounded-xl opacity-80 bg-zinc-700"} alt={`${props.title}`} src={props.image} />
             <div className={"p-5"}>
                 <p className={"font-Poppins text-zinc-200 font-medium text-xl"}>{props.title}</p>
                 <p className={"font-Poppins text-zinc-400 text-md mt-1"}>{props.description}</p>
