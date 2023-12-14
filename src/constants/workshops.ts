@@ -12,13 +12,23 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "holiday_card_code_challenge",
+        "image": "/images/holiday-card.jpg",
+        "number": 11,
+        "name": "Holiday Card Code Challenge",
+        "description": "Resources for the Holiday Card Code Challenge!",
+        "moreDescription": "Resources for the Holiday Card Code Challenge!",
+        "completed": false,
+        "customUrl": "https://workable-clove-91e.notion.site/HC-Holiday-Card-Code-Challenge-6694315683c84693a77fd21e32cc5942?pvs=4"
+    },
+    {
         "id": "web_scraping_live",
         "image": "/images/scraped-items.png",
         "number": 11,
         "name": "Web Scraping with Python",
         "description": "Resources for the Web Scraping with Python live workshop",
         "moreDescription": "Resources for the Web Scraping with Python live workshop",
-        "completed": false
+        "completed": true
     },
     {
         "id": "konami_code",
@@ -28,7 +38,7 @@ export const WORKSHOPS: {
         "description": "Web Scraping with Python Self-Guided workshop. Prior coding experience recommended.",
         "customUrl": "https://workshops.hackclub.com/read_the_internet/",
         "moreDescription": "",
-        "completed": false
+        "completed": true
     },
     {
         "id": "konami_code",

@@ -56,7 +56,7 @@ const IntroSection: React.FC<{
                 fullRedirect
                 preventOpenNewPage
               />
-              <div onClick={props.scrollToCodeChallengeSection} className="flex font-bold text-white items-center flex justify-center gap-1 cursor-pointer">
+              {/* <div onClick={props.scrollToCodeChallengeSection} className="flex font-bold text-white items-center flex justify-center gap-1 cursor-pointer">
                 <div>Code Challenge</div>
               </div>
               <div className="flex font-bold text-white items-center flex-col justify-center gap-1 cursor-pointer"></div>
@@ -79,7 +79,7 @@ const IntroSection: React.FC<{
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
-              </div>
+              </div> */}
             </motion.div>
           </div>
 

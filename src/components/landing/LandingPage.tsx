@@ -22,9 +22,9 @@ const LandingPage: React.FC<{}> = (props) => {
       <IntroSection
         scrollToCodeChallengeSection={scrollToCodeChallengeSection}
       />
-      <div ref={codeChallengeRef}>
+      {/* <div ref={codeChallengeRef}>
         <CodeChallenge />
-      </div>
+      </div> */}
       <Content />
       <Footer />
     </NavbarWrapper>
