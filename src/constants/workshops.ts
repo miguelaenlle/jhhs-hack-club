@@ -12,13 +12,23 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "grocery_list",
+        "image": "https://i.ibb.co/zZXbVqH/Group-201.jpg",
+        "number": 11,
+        "name": "🍎 Grocery List with React",
+        "description": "Resources for the Grocery List with React workshop!",
+        "moreDescription": "Resources for the Grocery List with React workshop!",
+        "completed": false,
+        "customUrl": "https://workable-clove-91e.notion.site/Build-an-Online-Grocery-List-w-React-e9686f90460941c692b43843d7d6687f?pvs=4"
+    },
+    {
         "id": "holiday_card_code_challenge",
         "image": "/images/holiday-card.jpg",
         "number": 11,
         "name": "Holiday Card Code Challenge",
         "description": "Resources for the Holiday Card Code Challenge!",
         "moreDescription": "Resources for the Holiday Card Code Challenge!",
-        "completed": false,
+        "completed": true,
         "customUrl": "https://workable-clove-91e.notion.site/HC-Holiday-Card-Code-Challenge-6694315683c84693a77fd21e32cc5942?pvs=4"
     },
     {
