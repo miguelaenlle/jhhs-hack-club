@@ -12,13 +12,22 @@ export const WORKSHOPS: {
     completed: boolean
 }[] = [
     {
+        "id": "kahoot_clone",
+        "image": "https://i.ibb.co/r2QHKGw/image.png",
+        "number": 11,
+        "name": "Kahoot Clone",
+        "description": "Resources for the Kahoot Clone workshop!",
+        "moreDescription": "Resources for the Kahoot Clone workshop!",
+        "completed": false,
+    },
+    {
         "id": "grocery_list",
         "image": "https://i.ibb.co/zZXbVqH/Group-201.jpg",
         "number": 11,
         "name": "🍎 Grocery List with React",
         "description": "Resources for the Grocery List with React workshop!",
         "moreDescription": "Resources for the Grocery List with React workshop!",
-        "completed": false,
+        "completed": true,
         "customUrl": "https://workable-clove-91e.notion.site/Build-an-Online-Grocery-List-w-React-e9686f90460941c692b43843d7d6687f?pvs=4"
     },
     {
