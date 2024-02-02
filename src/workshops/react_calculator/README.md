@@ -13,7 +13,7 @@ During this workshop, you'll build a fully functional calculator using React com
 
 ## Part I: Getting Started
 
-Open the CodeSandbox to get started: https://codesandbox.io/p/sandbox/workshopcalculatorstarter-1d07f?file=%2Fsrc%2Fcomponents%2FButton.js%3A6%2C10
+Open the StackBlitz link to get started: https://stackblitz.com/edit/stackblitz-starters-twustx?file=src%2FApp.js
 
 ## Part II: Live Workshop!
 
@@ -21,4 +21,4 @@ Now continue to follow along with the live workshop!
 
 ## Part III: Check the Finished Code!
 
-Custom React Calculator Finished Code: https://codesandbox.io/p/sandbox/workshopcalculator-5trtj
+Custom React Calculator Finished Code: https://stackblitz.com/edit/stackblitz-starters-sxxccb?file=src%2FApp.js
