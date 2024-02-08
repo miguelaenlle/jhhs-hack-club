@@ -12,13 +12,22 @@ export const WORKSHOPS: {
   completed: boolean;
 }[] = [
   {
+    id: "tier_list",
+    image: "https://i.ibb.co/5vFBjJK/image.png",
+    number: 11,
+    name: "Tier List with React",
+    description: "Resources for the Tier List with React workshop!",
+    moreDescription: "Resources for the Tier List with React workshop!",
+    completed: false,
+  },
+  {
     id: "react_calculator",
     image: "/images/ReactCalc3.png",
     number: 11,
     name: "Calculator App with React",
     description: "Resources for the Calculator App with React workshop!",
     moreDescription: "Resources for the Calculator App with React workshop!",
-    completed: false,
+    completed: true,
   },
   {
     id: "kahoot_clone",
@@ -27,7 +36,7 @@ export const WORKSHOPS: {
     name: "Kahoot Clone",
     description: "Resources for the Kahoot Clone workshop!",
     moreDescription: "Resources for the Kahoot Clone workshop!",
-    completed: false,
+    completed: true,
   },
   {
     id: "grocery_list",
