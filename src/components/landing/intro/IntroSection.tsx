@@ -56,6 +56,25 @@ const IntroSection: React.FC<{
                 fullRedirect
                 preventOpenNewPage
               />
+              <a
+                href='https://hshacks.org/'
+                className={
+                  `bg-gradient-to-br from-[#0C6885] to-[#5E0D84] rounded-full p-3 px-5 w-fit hover:cursor-pointer hover:scale-105 transition-all`
+                }
+                target="_blank"
+              >
+                <div className='flex items-center gap-2'>
+                  <img src={"https://hshacks.org/static/media/logo.bc36ba9c0dca76280398.PNG"} className={"h-7"} />
+                  <p
+                    className={
+                      "text-md text-white font-Poppins font-bold"
+                    }
+                  >
+                    HSHacks Hackathon
+                  </p>
+                  <p className={"text-green-500 mb-[2px]"}>NEW</p>
+                </div>
+              </a>
               {/* <div onClick={props.scrollToCodeChallengeSection} className="flex font-bold text-white items-center flex justify-center gap-1 cursor-pointer">
                 <div>Code Challenge</div>
               </div>

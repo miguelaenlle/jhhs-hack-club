@@ -12,13 +12,32 @@ export const WORKSHOPS: {
   completed: boolean;
 }[] = [
   {
+    id: "vr_live",
+    image: "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
+    number: 11,
+    name: "VR World Live",
+    description: "Resources for the live VR world workshop!",
+    moreDescription: "Build a custom VR world in Replit using AFrame and HTML!",
+    completed: false,
+  },
+  {
+    id: "vr",
+    image: "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
+    number: 11,
+    name: "VR World Self-Guided",
+    description: "Build a custom VR world in Replit using AFrame and HTML!",
+    moreDescription: "Build a custom VR world in Replit using AFrame and HTML!",
+    completed: false,
+    customUrl: "https://workshops.hackclub.com/vr_worlds/"
+  },
+  {
     id: "tier_list",
     image: "https://i.ibb.co/5vFBjJK/image.png",
     number: 11,
     name: "Tier List with React",
     description: "Resources for the Tier List with React workshop!",
     moreDescription: "Resources for the Tier List with React workshop!",
-    completed: false,
+    completed: true,
   },
   {
     id: "react_calculator",
@@ -298,24 +317,6 @@ export const WORKSHOPS: {
       "Build a particle physics simulation website using HTML and JS!",
     moreDescription:
       "Build a particle physics simulation website using HTML and JS!",
-    completed: true,
-  },
-  {
-    id: "vr_live",
-    image: "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
-    number: 11,
-    name: "VR World Live",
-    description: "Resources for the live VR world workshop!",
-    moreDescription: "Build a custom VR world in Replit using AFrame and HTML!",
-    completed: true,
-  },
-  {
-    id: "vr",
-    image: "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
-    number: 11,
-    name: "VR World",
-    description: "Build a custom VR world in Replit using AFrame and HTML!",
-    moreDescription: "Build a custom VR world in Replit using AFrame and HTML!",
     completed: true,
   },
   {
