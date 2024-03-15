@@ -12,13 +12,22 @@ export const WORKSHOPS: {
   completed: boolean;
 }[] = [
   {
+    id: "quote_generator_live",
+    image: "/images/QuoteGeneratorImage.png",
+    number: 11,
+    name: "Quote Generator Live",
+    description: "Resources for the Quote Generator workshop!",
+    moreDescription: "Build a custom Quote Generator in React using an API!",
+    completed: false,
+  },
+  {
     id: "vr_live",
     image: "https://i.ibb.co/ct1Bcgm/hcvr-demo.gif",
     number: 11,
     name: "VR World Live",
     description: "Resources for the live VR world workshop!",
     moreDescription: "Build a custom VR world in Replit using AFrame and HTML!",
-    completed: false,
+    completed: true,
   },
   {
     id: "vr",
@@ -27,8 +36,8 @@ export const WORKSHOPS: {
     name: "VR World Self-Guided",
     description: "Build a custom VR world in Replit using AFrame and HTML!",
     moreDescription: "Build a custom VR world in Replit using AFrame and HTML!",
-    completed: false,
-    customUrl: "https://workshops.hackclub.com/vr_worlds/"
+    completed: true,
+    customUrl: "https://workshops.hackclub.com/vr_worlds/",
   },
   {
     id: "tier_list",
