@@ -12,13 +12,32 @@ export const WORKSHOPS: {
   completed: boolean;
 }[] = [
   {
+    id: "sound_galaxy_live",
+    image: `https://i.ibb.co/BCxhmkm/sound-gal.gif`,
+    number: 11,
+    name: "Sound Galaxy Live",
+    description: "Resources for the Sound Galaxy workshop",
+    moreDescription: "Resources for the Sound Galaxy workshop",
+    completed: false,
+  },
+  {
+    id: "sound_galaxy",
+    image: `https://i.ibb.co/dfyfdHN/sound-galaxy-1.gif`,
+    number: 10,
+    name: "Sound Galaxy",
+    description: "Build a sound visualizer using HTML, JS, and P5!",
+    moreDescription: "Build a sound visualizer using HTML, JS, and P5!",
+    customUrl: "https://workshops.hackclub.com/sound_galaxy/",
+    completed: false,
+  },
+  {
     id: "quote_generator_live",
     image: "/images/QuoteGeneratorImage.png",
     number: 11,
     name: "Quote Generator Live",
     description: "Resources for the Quote Generator workshop!",
     moreDescription: "Build a custom Quote Generator in React using an API!",
-    completed: false,
+    completed: true,
   },
   {
     id: "vr_live",

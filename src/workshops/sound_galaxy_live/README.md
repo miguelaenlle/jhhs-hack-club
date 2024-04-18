@@ -13,7 +13,7 @@ In this workshop, you'll build a **Sound Galaxy** website!
 To get started:
 
 1) Create an account on <a href="https://repl.it" target="_blank">repl.it</a>, our code editor
-2) Clone the starter code <a href="https://replit.com/@MiguelAenlle1/Sound-Galaxy-Starter-Code?v=1" target="_blank">here</a>
+2) Clone the starter code <a href="https://replit.com/@MA157/Sound-Galaxy-Starter-Code" target="_blank">here</a>
 
 Once you clone the starter code, your screen should look like this:
 
@@ -24,3 +24,5 @@ Once you clone the starter code, your screen should look like this:
 ## Useful Resources 
 [Color Picker](https://www.google.com/search?q=color+picker&oq=color+picker&ie=UTF-8)
 
+## Finished Code 
+[https://replit.com/@MA157/Sound-Galaxy-Finished-Code?v=1](https://replit.com/@MA157/Sound-Galaxy-Finished-Code?v=1)
