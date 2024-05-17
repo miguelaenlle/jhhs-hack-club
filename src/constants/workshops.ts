@@ -18,7 +18,7 @@ export const WORKSHOPS: {
     name: "Among Us Online",
     description: "Resources for the most sus workshop",
     moreDescription: "Resources for the most sus workshop",
-    completed: true,
+    completed: false,
     customUrl: "https://replit.com/@1Tim/Among-Us-ONLINE-Fan-Remake#README.md"
   },
   {
