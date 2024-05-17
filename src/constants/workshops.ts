@@ -12,13 +12,23 @@ export const WORKSHOPS: {
   completed: boolean;
 }[] = [
   {
+    id: "among_us_online",
+    image: `https://cdn1.epicgames.com/salesEvent/salesEvent/amoguslandscape_2560x1440-3fac17e8bb45d81ec9b2c24655758075`,
+    number: 12,
+    name: "Among Us Online",
+    description: "Resources for the most sus workshop",
+    moreDescription: "Resources for the most sus workshop",
+    completed: true,
+    customUrl: "https://replit.com/@1Tim/Among-Us-ONLINE-Fan-Remake#README.md"
+  },
+  {
     id: "sound_galaxy_live",
     image: `https://i.ibb.co/BCxhmkm/sound-gal.gif`,
     number: 11,
     name: "Sound Galaxy Live",
     description: "Resources for the Sound Galaxy workshop",
     moreDescription: "Resources for the Sound Galaxy workshop",
-    completed: false,
+    completed: true,
   },
   {
     id: "sound_galaxy",
@@ -28,7 +38,7 @@ export const WORKSHOPS: {
     description: "Build a sound visualizer using HTML, JS, and P5!",
     moreDescription: "Build a sound visualizer using HTML, JS, and P5!",
     customUrl: "https://workshops.hackclub.com/sound_galaxy/",
-    completed: false,
+    completed: true,
   },
   {
     id: "quote_generator_live",
